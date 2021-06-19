@@ -1,0 +1,293 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19042.1052; Version 2009; 64bit' Language: 'en' Physical Memory: 16266 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/school/y3_s3/game_cs427/CS427-GameDev/CS427_project2D
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49863
+Successfully changed project path to: D:/school/y3_s3/game_cs427/CS427-GameDev/CS427_project2D
+D:/school/y3_s3/game_cs427/CS427-GameDev/CS427_project2D
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 125.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/school/y3_s3/game_cs427/CS427-GameDev/CS427_project2D/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   
+    VRAM:     8133 MB
+    Driver:   26.20.100.7372
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006400 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 102.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.119 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.012853 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 103.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.869 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.8 MB.
+System memory in use after: 92.7 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2513.
+Total: 5.311800 ms (FindLiveObjects: 0.393200 ms CreateObjectMapping: 0.181500 ms MarkObjects: 4.452000 ms  DeleteObjects: 0.283000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Sprite
+  artifactKey: Guid(dedafece14947eb42a57bb7dafba13a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite using Guid(dedafece14947eb42a57bb7dafba13a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b554a7ef25b398f6640e8083856135f0') in 0.026923 seconds
+  Import took 0.036836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.816906 seconds.
+  path: Assets/Sprite/Blue_witch/B_witch.gif
+  artifactKey: Guid(bb3e035fe1579e446bc8dcaa867ffc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Blue_witch/B_witch.gif using Guid(bb3e035fe1579e446bc8dcaa867ffc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87137db68b4649e3a8db316cae6dfd51') in 0.264394 seconds
+  Import took 0.271651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000527 seconds.
+  path: Assets/Sprite/Blue_witch/B_witch_charge.png
+  artifactKey: Guid(87ea58ca0b86cea4bbc1fa0d96f8727f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Blue_witch/B_witch_charge.png using Guid(87ea58ca0b86cea4bbc1fa0d96f8727f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b689d3a1e9f405f8540fbd8076907095') in 0.059083 seconds
+  Import took 0.067616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000542 seconds.
+  path: Assets/Sprite/Blue_witch
+  artifactKey: Guid(b63211b8e3e482346a63072d4ec31de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Blue_witch using Guid(b63211b8e3e482346a63072d4ec31de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d1d48365991e07adb316fb99ef4c35') in 0.013828 seconds
+  Import took 0.023034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/Sprite/Blue_witch/B_witch_death.png
+  artifactKey: Guid(2c25e5a608b96e547b066b2f9b98df8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Blue_witch/B_witch_death.png using Guid(2c25e5a608b96e547b066b2f9b98df8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6b700a3a5f524567bfb98101a405ef') in 0.030413 seconds
+  Import took 0.038342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/Sprite/Blue_witch/B_witch_idle.png
+  artifactKey: Guid(0c074cd78cf3ff54daa3338bbcf64881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Blue_witch/B_witch_idle.png using Guid(0c074cd78cf3ff54daa3338bbcf64881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74bc8d66f160fa9dc2c823f0331b7038') in 0.032219 seconds
+  Import took 0.040758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000492 seconds.
+  path: Assets/Sprite/Blue_witch/B_witch_attack.png
+  artifactKey: Guid(87bf03c0987fd6742be1d3c35aa6d41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Blue_witch/B_witch_attack.png using Guid(87bf03c0987fd6742be1d3c35aa6d41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d9fedf813e51ec04a5807fe1fe44c0') in 0.063867 seconds
+  Import took 0.072934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000494 seconds.
+  path: Assets/Sprite/Blue_witch/B_witch_run.png
+  artifactKey: Guid(aa4d591cf02c65e43b0741592b85224a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Blue_witch/B_witch_run.png using Guid(aa4d591cf02c65e43b0741592b85224a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30df2350c3a284308d645b77ab63c1d2') in 0.030867 seconds
+  Import took 0.040107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000488 seconds.
+  path: Assets/Sprite/Blue_witch/B_witch_take_damage.png
+  artifactKey: Guid(4a7456b7b1ba5b1438c586e316f84a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Blue_witch/B_witch_take_damage.png using Guid(4a7456b7b1ba5b1438c586e316f84a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6012740c881087f8e64022d153dcf9e8') in 0.032540 seconds
+  Import took 0.041470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.214379 seconds.
+  path: Assets/Sprite/Blue_witch/B_witch_attack_0 1.controller
+  artifactKey: Guid(b9c302ecce76e8b4eb4b961088e57225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Blue_witch/B_witch_attack_0 1.controller using Guid(b9c302ecce76e8b4eb4b961088e57225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adefcc9d8b86d96b1eb6057e46c02213') in 0.026188 seconds
+  Import took 0.033661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.171959 seconds.
+  path: Assets/Sprite/Blue_witch/B_witch_attack_0.controller
+  artifactKey: Guid(4d2e9764bbb6dab4abfa96313f43361c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Blue_witch/B_witch_attack_0.controller using Guid(4d2e9764bbb6dab4abfa96313f43361c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2069cdf0b6cdbe0b9d24dc4585bf812e') in 0.016889 seconds
+  Import took 0.025075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.608619 seconds.
+  path: Assets/Sprite/Blue_witch/B_witch_attack_25.controller
+  artifactKey: Guid(78031df5128a5e14286e898c51c61b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Blue_witch/B_witch_attack_25.controller using Guid(78031df5128a5e14286e898c51c61b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d6b790e607df912e83c82f61352404') in 0.016205 seconds
+  Import took 0.023712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003046 seconds.
+  path: Assets/Sprite/Blue_witch/B_witch_attack_25.controller
+  artifactKey: Guid(78031df5128a5e14286e898c51c61b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Blue_witch/B_witch_attack_25.controller using Guid(78031df5128a5e14286e898c51c61b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d6b790e607df912e83c82f61352404') in 0.005991 seconds
+  Import took 0.014193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.529760 seconds.
+  path: Assets/Sprite/Blue_witch/tornado.anim
+  artifactKey: Guid(cf26839cb44909e448ca6a634aa6ff68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Blue_witch/tornado.anim using Guid(cf26839cb44909e448ca6a634aa6ff68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854ff4cc3bbcc1489c5e07f5946d6d80') in 0.017932 seconds
+  Import took 0.024747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004417 seconds.
+  path: Assets/Sprite/Blue_witch/tornado.anim
+  artifactKey: Guid(cf26839cb44909e448ca6a634aa6ff68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Blue_witch/tornado.anim using Guid(cf26839cb44909e448ca6a634aa6ff68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854ff4cc3bbcc1489c5e07f5946d6d80') in 0.006606 seconds
+  Import took 0.013071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 110.132556 seconds.
+  path: Assets/Sprite/Cat
+  artifactKey: Guid(ce480513538e51c489c1218463438403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Cat using Guid(ce480513538e51c489c1218463438403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa077229e3daba9aec50003716789d2') in 0.016289 seconds
+  Import took 0.024320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.841604 seconds.
+  path: Assets/Sprite/Cat/Cat Sprite Sheet.png
+  artifactKey: Guid(873e469e7d187e749b5279e96ed67cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Cat/Cat Sprite Sheet.png using Guid(873e469e7d187e749b5279e96ed67cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463f96d1ecd1fe9d34840d8bc11f204e') in 0.043827 seconds
+  Import took 0.056275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.872068 seconds.
+  path: Assets/Sprite/Cat/Cat Sprite Sheet.png
+  artifactKey: Guid(6707b6b6adf817b47a74b4864c30a0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Cat/Cat Sprite Sheet.png using Guid(6707b6b6adf817b47a74b4864c30a0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be1c5acb56ca38f75791500ab4b5645') in 0.253479 seconds
+  Import took 0.262121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008416 seconds.
+  path: Assets/Sprite/Cat/Cat Sprite Sheet.png
+  artifactKey: Guid(6707b6b6adf817b47a74b4864c30a0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Cat/Cat Sprite Sheet.png using Guid(6707b6b6adf817b47a74b4864c30a0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be1c5acb56ca38f75791500ab4b5645') in 0.220398 seconds
+  Import took 0.229437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 120.008749 seconds.
+  path: Assets/Sprite/Magic-Cliffs-Environment/magic cliffs music/magic cliffs.mp3
+  artifactKey: Guid(7f2fe4c6d65925d4aa24e48bbf74583e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Magic-Cliffs-Environment/magic cliffs music/magic cliffs.mp3 using Guid(7f2fe4c6d65925d4aa24e48bbf74583e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe98a7e10deb97523f224998c677301') in 0.166821 seconds
+  Import took 0.175028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000568 seconds.
+  path: Assets/Sprite/Magic-Cliffs-Environment/magic cliffs music/magic cliffs.ogg
+  artifactKey: Guid(81999df533fce124186f5f70ddc4bb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Magic-Cliffs-Environment/magic cliffs music/magic cliffs.ogg using Guid(81999df533fce124186f5f70ddc4bb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862f0ee4adb41c55ca2f1279ddbcc3d3') in 0.033461 seconds
+  Import took 0.041027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000493 seconds.
+  path: Assets/Sprite/Magic-Cliffs-Environment/magic cliffs music/magic cliffs.wav
+  artifactKey: Guid(5074c7b969e00e1499581b8c608e0578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Magic-Cliffs-Environment/magic cliffs music/magic cliffs.wav using Guid(5074c7b969e00e1499581b8c608e0578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b41823579bcf0c40bc655e6dd15849') in 0.030428 seconds
+  Import took 0.038211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000536 seconds.
+  path: Assets/Sprite/Magic-Cliffs-Environment/magic cliffs music/magic cliffs.ogg
+  artifactKey: Guid(81999df533fce124186f5f70ddc4bb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Magic-Cliffs-Environment/magic cliffs music/magic cliffs.ogg using Guid(81999df533fce124186f5f70ddc4bb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862f0ee4adb41c55ca2f1279ddbcc3d3') in 0.024100 seconds
+  Import took 0.031144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.469337 seconds.
+  path: Assets/Sprite/Magic-Cliffs-Environment/PNG/clouds.png
+  artifactKey: Guid(b0d53d1294c0c7e4ebb9e007c0eff155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Magic-Cliffs-Environment/PNG/clouds.png using Guid(b0d53d1294c0c7e4ebb9e007c0eff155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4095552555127f6d465e4d826bbeb150') in 0.033181 seconds
+  Import took 0.041851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000592 seconds.
+  path: Assets/Sprite/Magic-Cliffs-Environment/PNG/sky.png
+  artifactKey: Guid(c5896e7aa6c3fc64a939f804458d0263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Magic-Cliffs-Environment/PNG/sky.png using Guid(c5896e7aa6c3fc64a939f804458d0263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e97b4081ce4b10df1ad3c777e92a0d') in 0.029102 seconds
+  Import took 0.036088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/Sprite/Magic-Cliffs-Environment/PNG/far-grounds.png
+  artifactKey: Guid(fb7584eb80daece4e8ae99bb86e9bcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Magic-Cliffs-Environment/PNG/far-grounds.png using Guid(fb7584eb80daece4e8ae99bb86e9bcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19fbc684803970b6085270a828ec6db') in 0.026469 seconds
+  Import took 0.034142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/Sprite/Magic-Cliffs-Environment/PNG/tileset.png
+  artifactKey: Guid(8fc17c0bd4d11fe42a5929f1f104b0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Magic-Cliffs-Environment/PNG/tileset.png using Guid(8fc17c0bd4d11fe42a5929f1f104b0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ef0a481179f78174c1919e0c8e77c2') in 0.215331 seconds
+  Import took 0.222526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000583 seconds.
+  path: Assets/Sprite/Magic-Cliffs-Environment/PNG/sea.png
+  artifactKey: Guid(efbeb6c17cb99b047a702d4af0c498a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Magic-Cliffs-Environment/PNG/sea.png using Guid(efbeb6c17cb99b047a702d4af0c498a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff223c9c8f17dae4b8f402987500fd0e') in 0.029526 seconds
+  Import took 0.036305 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

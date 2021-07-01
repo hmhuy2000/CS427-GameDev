@@ -32,23 +32,11 @@ public class CatMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if (Input.GetKeyDown(KeyCode.Space)){
-        //    curMove.y += 0.5f;
-        //}
-        //else
-        //{
-        //    curMove.y -= 0.01f;
-        //    if (curMove.y < 0)
-        //        curMove.y = 0;
-        //}
-        //transform.position = curMove;
-
         if (isGround() && Input.GetKeyDown(KeyCode.Space))
         {
             //rigid.velocity = new Vector2(0, jumpSpeed);
             isJumping = true;
             curJumpSpeed = rigid.velocity.y + jumpSpeed;
-            //rigid.velocity = Vector2.up * jumpSpeed;
             rigid.velocity = new Vector2(curWalkSpeed, curJumpSpeed);
             anim.SetTrigger("jump");
         }
@@ -59,17 +47,13 @@ public class CatMovement : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            //rigid.velocity = new Vector2(-walkSpeed, 0);
             curWalkSpeed = -walkSpeed;
-            //anim.Play("CatWalk");
             GetComponent<SpriteRenderer>().flipX = true;
             isWalking = true;
         }
         else if (Input.GetKey(KeyCode.RightArrow))
         {
-            //rigid.velocity = new Vector2(walkSpeed, 0);
             curWalkSpeed = walkSpeed;
-            //anim.Play("CatWalk");
             GetComponent<SpriteRenderer>().flipX = false;
             isWalking = true;
         }
@@ -84,8 +68,8 @@ public class CatMovement : MonoBehaviour
     {
         rigid.velocity = new Vector2(curWalkSpeed, rigid.velocity.y);
         anim.SetBool("walk", isWalking);
-        
     }
+
     bool isGround()
     {
         float extraHeightGroundCheck = 0.1f;
@@ -119,7 +103,6 @@ public class CatMovement : MonoBehaviour
             Vector2.right * 2 * boxCollider2D.bounds.extents.x,
             rayColor
             );
-        Debug.Log(raycastHit2D);
         return raycastHit2D.collider != null;
     }
 }

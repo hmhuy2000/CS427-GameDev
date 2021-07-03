@@ -10,7 +10,11 @@ public class CatMovement : MonoBehaviour
     Animator anim;
     [SerializeField] private LayerMask groundLayerMask;
 
-    public float jumpSpeed = 5f;
+    public KeyCode leftKey;
+    public KeyCode rightKey;
+    public KeyCode jumpKey;
+
+    public float jumpSpeed = 100f;
     public float runSpeed = 5f;
     public float walkSpeed = 2f;
 
@@ -32,26 +36,26 @@ public class CatMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isGround() && Input.GetKeyDown(KeyCode.Space))
+        if (isGround() && Input.GetKeyDown(jumpKey))
         {
-            //rigid.velocity = new Vector2(0, jumpSpeed);
             isJumping = true;
-            curJumpSpeed = rigid.velocity.y + jumpSpeed;
-            rigid.velocity = new Vector2(curWalkSpeed, curJumpSpeed);
+            curJumpSpeed = jumpSpeed;
+            rigid.AddForce(new Vector2(0, jumpSpeed));
             anim.SetTrigger("jump");
+
         }
         else
         {
-            isJumping = false;
             curJumpSpeed = rigid.velocity.y;
+            isJumping = false;
         }
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKey(leftKey))
         {
             curWalkSpeed = -walkSpeed;
             GetComponent<SpriteRenderer>().flipX = true;
             isWalking = true;
         }
-        else if (Input.GetKey(KeyCode.RightArrow))
+        else if (Input.GetKey(rightKey))
         {
             curWalkSpeed = walkSpeed;
             GetComponent<SpriteRenderer>().flipX = false;
@@ -68,6 +72,8 @@ public class CatMovement : MonoBehaviour
     {
         rigid.velocity = new Vector2(curWalkSpeed, rigid.velocity.y);
         anim.SetBool("walk", isWalking);
+        //if (isJumping)
+        
     }
 
     bool isGround()

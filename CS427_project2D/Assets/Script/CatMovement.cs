@@ -33,6 +33,22 @@ public class CatMovement : MonoBehaviour
         anim = GetComponent<Animator>();
     }
 
+    void OnTriggerEnter2D(Collider2D other) {
+        if (other.gameObject.CompareTag("item_hook")){
+            Destroy(other.gameObject);
+        }
+
+        if (other.gameObject.CompareTag("item_freeze")){
+            Destroy(other.gameObject);
+        }
+
+        if (other.gameObject.CompareTag("item_boost_speed")){
+            Destroy(other.gameObject);
+        }
+
+        
+    }
+
     // Update is called once per frame
     void Update()
     {

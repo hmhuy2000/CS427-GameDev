@@ -148,15 +148,19 @@ MonoBehaviour:
   groundLayerMask:
     serializedVersion: 2
     m_Bits: 64
-  catLayerMask:
-    serializedVersion: 2
-    m_Bits: 256
+  opponent: {fileID: 0}
   leftKey: 276
   rightKey: 275
   jumpKey: 273
   jumpSpeed: 250
   runSpeed: 5
   walkSpeed: 2
+  is_boosting: 0
+  boost_time: 0
+  boost_limit: 5
+  is_freezing: 0
+  freezing_time: 0
+  freezing_limit: 5
 --- !u!95 &178510947897756257
 Animator:
   serializedVersion: 3

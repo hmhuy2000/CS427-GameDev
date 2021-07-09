@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - ground
+  - item_freeze
+  - item_hook
+  - item_boost_speed
   layers:
   - Default
   - TransparentFX

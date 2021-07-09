@@ -9,6 +9,7 @@ public class CatMovement : MonoBehaviour
     BoxCollider2D boxCollider2D;
     Animator anim;
     [SerializeField] private LayerMask groundLayerMask;
+    public GameObject opponent;
 
     public KeyCode leftKey;
     public KeyCode rightKey;
@@ -17,6 +18,13 @@ public class CatMovement : MonoBehaviour
     public float jumpSpeed = 100f;
     public float runSpeed = 5f;
     public float walkSpeed = 2f;
+    public bool is_boosting = false;
+    public float boost_time = 0f;
+    public float boost_limit = 5f;
+
+    public bool is_freezing = false;
+    public float freezing_time = 0f;
+    public float freezing_limit = 5f;
 
     float curJumpSpeed = 0;
     float curWalkSpeed = 0;
@@ -31,6 +39,34 @@ public class CatMovement : MonoBehaviour
         rigid = GetComponent<Rigidbody2D>();
         boxCollider2D = GetComponent<BoxCollider2D>();
         anim = GetComponent<Animator>();
+    }
+    public void freeze(){
+        freezing_time = 0f;
+        is_freezing = true;
+        walkSpeed /= 2f;
+    }
+    void OnTriggerEnter2D(Collider2D other) {
+        if (other.gameObject.CompareTag("item_hook")){
+            Destroy(other.gameObject);
+            opponent.transform.position = new Vector2(transform.position.x, transform.position.y);
+
+        }
+
+        if (other.gameObject.CompareTag("item_freeze")){
+            Destroy(other.gameObject);
+            opponent.GetComponent<CatMovement>().freeze();
+
+        }
+
+        if (other.gameObject.CompareTag("item_boost_speed")){
+            Destroy(other.gameObject);
+            boost_time = 0f;
+            is_boosting = true;
+            walkSpeed *= 2f;
+
+        }
+
+        
     }
 
     // Update is called once per frame
@@ -65,6 +101,24 @@ public class CatMovement : MonoBehaviour
         {
             curWalkSpeed = 0;
             isWalking = false;
+        }
+
+        if (is_boosting){
+            boost_time += Time.deltaTime;
+            if (boost_time>=boost_limit){
+                boost_time = 0f;
+                is_boosting = false;
+                walkSpeed /= 2f;
+            }
+        }
+
+        if (is_freezing){
+            freezing_time += Time.deltaTime;
+            if (freezing_time>=freezing_limit){
+                freezing_time = 0f;
+                is_freezing = false;
+                walkSpeed *= 2f;
+            }
         }
     }
 

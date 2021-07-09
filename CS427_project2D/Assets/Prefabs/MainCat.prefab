@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 178510947897756262}
   - component: {fileID: 178510947897756258}
   - component: {fileID: 178510947897756257}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: MainCat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -77,7 +77,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: -1408798032432352212, guid: 6707b6b6adf817b47a74b4864c30a0d4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.5416667, y: 0.45833334}
@@ -148,10 +148,13 @@ MonoBehaviour:
   groundLayerMask:
     serializedVersion: 2
     m_Bits: 64
+  catLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
   leftKey: 276
   rightKey: 275
   jumpKey: 273
-  jumpSpeed: 5
+  jumpSpeed: 250
   runSpeed: 5
   walkSpeed: 2
 --- !u!95 &178510947897756257

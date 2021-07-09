@@ -79,7 +79,7 @@ public class CatMovement : MonoBehaviour
     bool isGround()
     {
         float extraHeightGroundCheck = 0.1f;
-        RaycastHit2D raycastHit2D = Physics2D.BoxCast(
+        RaycastHit2D groundRaycastHit = Physics2D.BoxCast(
             boxCollider2D.bounds.center,
             boxCollider2D.bounds.size,
             0f,
@@ -87,28 +87,47 @@ public class CatMovement : MonoBehaviour
             extraHeightGroundCheck,
             groundLayerMask
             );
+        //if (groundRaycastHit.collider != null)
+        //    return true;
 
-        Color rayColor;
-        if (raycastHit2D.collider != null)
-        {
-            rayColor = Color.green;
-        }
-        else rayColor = Color.red;
-        Debug.DrawRay(
-            boxCollider2D.bounds.center + new Vector3(boxCollider2D.bounds.extents.x, 0),
-            Vector2.down * (boxCollider2D.bounds.extents.y + extraHeightGroundCheck),
-            rayColor
-            );
-        Debug.DrawRay(
-            boxCollider2D.bounds.center - new Vector3(boxCollider2D.bounds.extents.x, 0),
-            Vector2.down * (boxCollider2D.bounds.extents.y + extraHeightGroundCheck),
-            rayColor
-            );
-        Debug.DrawRay(
-            boxCollider2D.bounds.center - new Vector3(boxCollider2D.bounds.extents.x, boxCollider2D.bounds.extents.y + extraHeightGroundCheck),
-            Vector2.right * 2 * boxCollider2D.bounds.extents.x,
-            rayColor
-            );
-        return raycastHit2D.collider != null;
+        //RaycastHit2D catRaycastHit = Physics2D.BoxCast(
+        //    boxCollider2D.bounds.center,
+        //    boxCollider2D.bounds.size,
+        //    0f,
+        //    Vector2.down,
+        //    extraHeightGroundCheck,
+        //    catLayerMask
+        //    );
+
+
+
+        //Color rayColor;
+        //if (raycastHit2D.collider != null)
+        //{
+        //    rayColor = Color.green;
+        //}
+        //else rayColor = Color.red;
+        //Debug.DrawRay(
+        //    boxCollider2D.bounds.center + new Vector3(boxCollider2D.bounds.extents.x, 0),
+        //    Vector2.down * (boxCollider2D.bounds.extents.y + extraHeightGroundCheck),
+        //    rayColor
+        //    );
+        //Debug.DrawRay(
+        //    boxCollider2D.bounds.center - new Vector3(boxCollider2D.bounds.extents.x, 0),
+        //    Vector2.down * (boxCollider2D.bounds.extents.y + extraHeightGroundCheck),
+        //    rayColor
+        //    );
+        //Debug.DrawRay(
+        //    boxCollider2D.bounds.center - new Vector3(boxCollider2D.bounds.extents.x, boxCollider2D.bounds.extents.y + extraHeightGroundCheck),
+        //    Vector2.right * 2 * boxCollider2D.bounds.extents.x,
+        //    rayColor
+        //    );
+        return groundRaycastHit.collider != null;
+    }
+
+    public void stopAction()
+    {
+        rigid.velocity = new Vector2(0, rigid.velocity.y);
+        anim.SetBool("walk", false);
     }
 }

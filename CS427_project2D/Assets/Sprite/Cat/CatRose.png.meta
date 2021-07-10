@@ -1,0 +1,1368 @@
+fileFormatVersion: 2
+guid: 7342e89c1336ebd4f95c3c7a3b1244fe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2398162815764858973
+    second: CatRose_0
+  - first:
+      213: -5474613371364289012
+    second: CatRose_1
+  - first:
+      213: 3030320824946777868
+    second: CatRose_2
+  - first:
+      213: 1104353573907073747
+    second: CatRose_3
+  - first:
+      213: -2538019917852202442
+    second: CatRose_4
+  - first:
+      213: 6891067909827783358
+    second: CatRose_5
+  - first:
+      213: -6580380702077119960
+    second: CatRose_6
+  - first:
+      213: 4727321927344614621
+    second: CatRose_7
+  - first:
+      213: 6375912989847966461
+    second: CatRose_8
+  - first:
+      213: -4622538764437339009
+    second: CatRose_9
+  - first:
+      213: 3476727026643155830
+    second: CatRose_10
+  - first:
+      213: 8385867458514104518
+    second: CatRose_11
+  - first:
+      213: -5121132987637352165
+    second: CatRose_12
+  - first:
+      213: 7845350710927151641
+    second: CatRose_13
+  - first:
+      213: -272870603479136192
+    second: CatRose_14
+  - first:
+      213: -8622772609227222520
+    second: CatRose_15
+  - first:
+      213: -3382789681100139744
+    second: CatRose_16
+  - first:
+      213: 3465042264084736178
+    second: CatRose_17
+  - first:
+      213: -4802453109710241226
+    second: CatRose_18
+  - first:
+      213: 6930900071004419225
+    second: CatRose_19
+  - first:
+      213: -3184040783811139761
+    second: CatRose_20
+  - first:
+      213: -1110879364001536079
+    second: CatRose_21
+  - first:
+      213: -5183017649411239371
+    second: CatRose_22
+  - first:
+      213: -3520783123542018547
+    second: CatRose_23
+  - first:
+      213: 413255852201963923
+    second: CatRose_24
+  - first:
+      213: 7901718207104712746
+    second: CatRose_25
+  - first:
+      213: -2339218289958050390
+    second: CatRose_26
+  - first:
+      213: 2253198214083727771
+    second: CatRose_27
+  - first:
+      213: 1435378424837235597
+    second: CatRose_28
+  - first:
+      213: -7959208008241122204
+    second: CatRose_29
+  - first:
+      213: -2455436953690837420
+    second: CatRose_30
+  - first:
+      213: 8742744369123661173
+    second: CatRose_31
+  - first:
+      213: -6225828400529632485
+    second: CatRose_32
+  - first:
+      213: 9017382292834564007
+    second: CatRose_33
+  - first:
+      213: 6397805588379752955
+    second: CatRose_34
+  - first:
+      213: -1070324559739110300
+    second: CatRose_35
+  - first:
+      213: -3251782138884667787
+    second: CatRose_36
+  - first:
+      213: -3447010203312059081
+    second: CatRose_37
+  - first:
+      213: 2364544454118275427
+    second: CatRose_38
+  - first:
+      213: 3099344912222732186
+    second: CatRose_39
+  - first:
+      213: 2754866668741293826
+    second: CatRose_40
+  - first:
+      213: 643975464486321283
+    second: CatRose_41
+  - first:
+      213: 638385252314189411
+    second: CatRose_42
+  - first:
+      213: -274322944657017313
+    second: CatRose_43
+  - first:
+      213: 2726722887643481013
+    second: CatRose_44
+  - first:
+      213: 4030140340017371375
+    second: CatRose_45
+  - first:
+      213: -7674805539917983767
+    second: CatRose_46
+  - first:
+      213: 2016016472020909880
+    second: CatRose_47
+  - first:
+      213: 4917524252656939186
+    second: CatRose_48
+  - first:
+      213: 6405882039424327604
+    second: CatRose_49
+  - first:
+      213: -4145492820697327530
+    second: CatRose_50
+  - first:
+      213: -7874252585566860682
+    second: CatRose_51
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CatRose_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 531
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58073bff5cf74120800000000000000
+      internalID: 2398162815764858973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 531
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c065a3df4244604b0800000000000000
+      internalID: -5474613371364289012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_2
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 504
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0fdb662cbcdd0a20800000000000000
+      internalID: 3030320824946777868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_3
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 504
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da0a2f69b3735f00800000000000000
+      internalID: 1104353573907073747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_4
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 478
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63aad8be45427ccd0800000000000000
+      internalID: -2538019917852202442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_5
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 453
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebae068e0cdf1af50800000000000000
+      internalID: 6891067909827783358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_6
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 453
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8229bd5ad9acda4a0800000000000000
+      internalID: -6580380702077119960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_7
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 453
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc6a4a1f32da9140800000000000000
+      internalID: 4727321927344614621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_8
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 453
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2dfae451bcb7850800000000000000
+      internalID: 6375912989847966461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_9
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 453
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f744d392c7179dfb0800000000000000
+      internalID: -4622538764437339009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_10
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 453
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67bb01c6fc0df3030800000000000000
+      internalID: 3476727026643155830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_11
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 453
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0bd36f506906470800000000000000
+      internalID: 8385867458514104518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_12
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 453
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1937504ea41ee8b0800000000000000
+      internalID: -5121132987637352165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_13
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 428
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912db27b7e840ec60800000000000000
+      internalID: 7845350710927151641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_14
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 428
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048caf1c1a1963cf0800000000000000
+      internalID: -272870603479136192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_15
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 428
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8021b005ff1c55880800000000000000
+      internalID: -8622772609227222520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_16
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 428
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0235b2435baed01d0800000000000000
+      internalID: -3382789681100139744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_17
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 428
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b86c72a49d461030800000000000000
+      internalID: 3465042264084736178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_18
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 428
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632404957524a5db0800000000000000
+      internalID: -4802453109710241226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_19
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 428
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994b2f1a4e08f2060800000000000000
+      internalID: 6930900071004419225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_20
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 405
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47a492e6c300d3d0800000000000000
+      internalID: -3184040783811139761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_21
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 405
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b76068aa1d5590f0800000000000000
+      internalID: -1110879364001536079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_22
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 405
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532534e98e83218b0800000000000000
+      internalID: -5183017649411239371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_23
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 405
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06761e276aa32fc0800000000000000
+      internalID: -3520783123542018547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_24
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 405
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39179df020e2cb500800000000000000
+      internalID: 413255852201963923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_25
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 405
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2086b128da88ad60800000000000000
+      internalID: 7901718207104712746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_26
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 405
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa524f6eb5d698fd0800000000000000
+      internalID: -2339218289958050390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_27
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 380
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91510776d7f44f10800000000000000
+      internalID: 2253198214083727771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_28
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 362
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83eeaa821d7be310800000000000000
+      internalID: 1435378424837235597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_29
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 331
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464f7577c763b8190800000000000000
+      internalID: -7959208008241122204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_30
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 332
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ee3ee99198cedd0800000000000000
+      internalID: -2455436953690837420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_31
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 310
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57599a3cea7745970800000000000000
+      internalID: 8742744369123661173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_32
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 310
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1394e93e0a6999a0800000000000000
+      internalID: -6225828400529632485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_33
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 287
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a73d405b6d242d70800000000000000
+      internalID: 9017382292834564007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_34
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 260
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9526d194299c850800000000000000
+      internalID: 6397805588379752955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_35
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 231
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46cbf56db717521f0800000000000000
+      internalID: -1070324559739110300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_36
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 231
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576c1d49f595fd2d0800000000000000
+      internalID: -3251782138884667787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_37
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 207
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d007eab72c920d0800000000000000
+      internalID: -3447010203312059081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_38
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 207
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369f65337ac80d020800000000000000
+      internalID: 2364544454118275427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_39
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 185
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f3371d6c5130b20800000000000000
+      internalID: 3099344912222732186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_40
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 185
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20773e9a3a04b3620800000000000000
+      internalID: 2754866668741293826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_41
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 162
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c36c4e54cdfe800800000000000000
+      internalID: 643975464486321283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_42
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 162
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e090231000cd800800000000000000
+      internalID: 638385252314189411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_43
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 140
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16baf93cb8613cf0800000000000000
+      internalID: -274322944657017313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_44
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 140
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b3caeef40447d520800000000000000
+      internalID: 2726722887643481013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_45
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 115
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe815b1694fede730800000000000000
+      internalID: 4030140340017371375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_46
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 115
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef0df8360d9d7590800000000000000
+      internalID: -7674805539917983767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_47
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 91
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f742ccc445afb10800000000000000
+      internalID: 2016016472020909880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_48
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 91
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b03cfde04e8e3440800000000000000
+      internalID: 4917524252656939186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_49
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 18
+        width: 45
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf11f866c346e850800000000000000
+      internalID: 6405882039424327604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_50
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 58
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658576b4e304876c0800000000000000
+      internalID: -4145492820697327530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRose_51
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 332
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a06953ef809b290800000000000000
+      internalID: -7874252585566860682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

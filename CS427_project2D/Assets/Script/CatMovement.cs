@@ -38,8 +38,9 @@ public class CatMovement : MonoBehaviour
         curMove = transform.position;
         rigid = GetComponent<Rigidbody2D>();
         boxCollider2D = GetComponent<BoxCollider2D>();
-        anim = GetComponent<Animator>();
+        anim = GetComponent<Animator>();        
     }
+
     public void freeze(){
         freezing_time = 0f;
         is_freezing = true;

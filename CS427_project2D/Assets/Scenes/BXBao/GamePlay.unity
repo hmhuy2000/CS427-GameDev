@@ -131,40 +131,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 1488141350}
     m_Modifications:
     - target: {fileID: 178510947897756258, guid: 5030b5e9cb297694d9a48b95d4ffe784, type: 3}
-      propertyPath: jumpKey
-      value: 119
-      objectReference: {fileID: 0}
-    - target: {fileID: 178510947897756258, guid: 5030b5e9cb297694d9a48b95d4ffe784, type: 3}
-      propertyPath: leftKey
-      value: 97
-      objectReference: {fileID: 0}
-    - target: {fileID: 178510947897756258, guid: 5030b5e9cb297694d9a48b95d4ffe784, type: 3}
       propertyPath: opponent
       value: 
       objectReference: {fileID: 771605317}
-    - target: {fileID: 178510947897756258, guid: 5030b5e9cb297694d9a48b95d4ffe784, type: 3}
-      propertyPath: rightKey
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 178510947897756258, guid: 5030b5e9cb297694d9a48b95d4ffe784, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 178510947897756258, guid: 5030b5e9cb297694d9a48b95d4ffe784, type: 3}
-      propertyPath: groundLayerMask.m_Bits
-      value: 320
-      objectReference: {fileID: 0}
     - target: {fileID: 178510947897756259, guid: 5030b5e9cb297694d9a48b95d4ffe784, type: 3}
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 178510947897756259, guid: 5030b5e9cb297694d9a48b95d4ffe784, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -1.671
       objectReference: {fileID: 0}
     - target: {fileID: 178510947897756259, guid: 5030b5e9cb297694d9a48b95d4ffe784, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.026
       objectReference: {fileID: 0}
     - target: {fileID: 178510947897756259, guid: 5030b5e9cb297694d9a48b95d4ffe784, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3015,10 +2995,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1933261554}
     m_Modifications:
+    - target: {fileID: 178510947897756257, guid: 5030b5e9cb297694d9a48b95d4ffe784, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 178510947897756258, guid: 5030b5e9cb297694d9a48b95d4ffe784, type: 3}
+      propertyPath: jumpKey
+      value: 273
+      objectReference: {fileID: 0}
+    - target: {fileID: 178510947897756258, guid: 5030b5e9cb297694d9a48b95d4ffe784, type: 3}
+      propertyPath: leftKey
+      value: 276
+      objectReference: {fileID: 0}
     - target: {fileID: 178510947897756258, guid: 5030b5e9cb297694d9a48b95d4ffe784, type: 3}
       propertyPath: opponent
       value: 
       objectReference: {fileID: 896358695}
+    - target: {fileID: 178510947897756258, guid: 5030b5e9cb297694d9a48b95d4ffe784, type: 3}
+      propertyPath: rightKey
+      value: 275
+      objectReference: {fileID: 0}
     - target: {fileID: 178510947897756258, guid: 5030b5e9cb297694d9a48b95d4ffe784, type: 3}
       propertyPath: catLayerMask.m_Bits
       value: 0
@@ -3853,7 +3849,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &879825191
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8483,7 +8479,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obj1: {fileID: 1488141349}
   obj2: {fileID: 1933261553}
-  duration: 120
+  duration: 10
 --- !u!4 &2024531638
 Transform:
   m_ObjectHideFlags: 0

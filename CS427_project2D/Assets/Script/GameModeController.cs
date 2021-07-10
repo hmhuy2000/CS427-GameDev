@@ -11,19 +11,36 @@ public class GameModeController : MonoBehaviour
     CameraFollow cameraScript;
     private CountDownTimer timerScript;
     public float duration = -1;
+    
+    GameModeController()
+    {
+    }
+    
     void Start()
     {
         timerScript = GetComponent<CountDownTimer>();
         timerScript.resetDuration(duration);
-        if(PlayerPrefs.GetInt("mode")==1)
+
+        int skinIndex1 = PlayerPrefs.GetInt("skin1",0);
+        loadSkinPlayer(1, skinIndex1, false);
+        if (PlayerPrefs.GetInt("mode") == 1)
+        {
             loadSinglePlayerMode();
+            PlayerPrefs.SetInt("skin2", 1);
+        }
+        else
+        {
+            int skinIndex2 = PlayerPrefs.GetInt("skin2", 0);
+            bool isChangeColor = false;
+            if (skinIndex1 == skinIndex2)
+                isChangeColor = true;
+            loadSkinPlayer(2, skinIndex2, isChangeColor);
+            PlayerPrefs.SetInt("skin2", 1);
+        }
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 
     void loadSinglePlayerMode()
     {
@@ -50,5 +67,38 @@ public class GameModeController : MonoBehaviour
         cameraScript.dif /= 2;
 
     }
+
+    public void loadSkinPlayer(int playerNo, int skinIndex, bool isChangeColor)
+    {
+        GameObject obj;
+        switch (playerNo)
+        {
+            case 2:
+                obj = obj2;
+                break;
+            case 1:
+            default: 
+                obj = obj1;
+                break;
+        }
+
+        GameObject cat = obj.transform.GetChild(2).gameObject;
+        ChangeSkin skinScript = cat.GetComponent<ChangeSkin>();
+        switch (skinIndex)
+        {
+            case 0:
+                skinScript.changeSnowSkin();
+                break;
+            case 1:
+                skinScript.changeRoseSkin();
+                break;
+        }
+        if (isChangeColor)
+        {
+            cat.GetComponent<SpriteRenderer>().color = new Color(0.83f, 0.67f, 0.22f, 1f);
+        }
+            
+    }
+
 
 }

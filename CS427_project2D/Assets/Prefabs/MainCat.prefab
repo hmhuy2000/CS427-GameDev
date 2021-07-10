@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 178510947897756262}
   - component: {fileID: 178510947897756258}
   - component: {fileID: 178510947897756257}
+  - component: {fileID: 896358700}
   m_Layer: 7
   m_Name: MainCat
   m_TagString: Untagged
@@ -147,11 +148,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   groundLayerMask:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 320
   opponent: {fileID: 0}
-  leftKey: 276
-  rightKey: 275
-  jumpKey: 273
+  leftKey: 97
+  rightKey: 100
+  jumpKey: 119
   jumpSpeed: 250
   runSpeed: 5
   walkSpeed: 2
@@ -180,3 +181,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &896358700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178510947897756263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4ea671451e445348873d9d6f3cb9abc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roseAnim: {fileID: 22100000, guid: ca3c06fd647ff81418c8ea7d804c9b94, type: 2}
+  snowAnim: {fileID: 22100000, guid: 5b3e1e543e61b5f45b4f9c190dac50fc, type: 2}

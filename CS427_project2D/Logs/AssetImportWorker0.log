@@ -15,11 +15,11 @@ D:/HCMUS_GAME/CS427-GameDev/CS427_project2D
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53949
+65034
 Successfully changed project path to: D:/HCMUS_GAME/CS427-GameDev/CS427_project2D
 D:/HCMUS_GAME/CS427-GameDev/CS427_project2D
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 175.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 36.24 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -35,543 +35,283 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56276
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.017611 seconds.
+Registered in 0.002020 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 215.40 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 37.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  7.911 seconds
+- Completed reload, in  1.035 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.025145 seconds.
+Registered in 0.002725 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 179.86 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 35.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.440 seconds
+- Completed reload, in  1.092 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
-Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2082 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 92.9 MB.
 System memory in use after: 92.9 MB.
 
 Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2517.
-Total: 7.396100 ms (FindLiveObjects: 0.764400 ms CreateObjectMapping: 0.263000 ms MarkObjects: 5.903300 ms  DeleteObjects: 0.462800 ms)
+Total: 2.098600 ms (FindLiveObjects: 0.208300 ms CreateObjectMapping: 0.087600 ms MarkObjects: 1.692200 ms  DeleteObjects: 0.109200 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Sprite/Cat
-  artifactKey: Guid(ce480513538e51c489c1218463438403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Cat using Guid(ce480513538e51c489c1218463438403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4462599a05cbc2929963bf799cf106cb') in 0.036650 seconds
-  Import took 0.054385 seconds .
+  path: Assets/Sprite/bomberman/utils.png
+  artifactKey: Guid(c43182ba97d0e414e94f2ba995fafaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/bomberman/utils.png using Guid(c43182ba97d0e414e94f2ba995fafaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3cfbadfed2eab83b5590f3e38405ed') in 0.110243 seconds
+  Import took 0.113552 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001544 seconds.
-  path: Assets/Sprite/Cat/Cat Sprite Sheet.png
-  artifactKey: Guid(6707b6b6adf817b47a74b4864c30a0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Cat/Cat Sprite Sheet.png using Guid(6707b6b6adf817b47a74b4864c30a0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed1c26541e54a48ae537f29be8fc48e') in 0.951876 seconds
-  Import took 0.965203 seconds .
+  Time since last request: 0.000275 seconds.
+  path: Assets/Sprite/bomberman/characters.png
+  artifactKey: Guid(23a13afb961b57148a2363fa380621d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/bomberman/characters.png using Guid(23a13afb961b57148a2363fa380621d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c92d9917232a171940583ea0e7f39f8') in 0.044138 seconds
+  Import took 0.047017 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000651 seconds.
-  path: Assets/Sprite/JumpKing.png
-  artifactKey: Guid(068f0cb00303dff47a13600256e4e67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/JumpKing.png using Guid(068f0cb00303dff47a13600256e4e67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a2b1bb8e336b2fe044400c5c65a2a8') in 0.080326 seconds
-  Import took 0.091530 seconds .
+  Time since last request: 0.000330 seconds.
+  path: Assets/Sprite/bomberman/14bomberman.png
+  artifactKey: Guid(f0b9154624b8f9d4692f87abfd3079ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/bomberman/14bomberman.png using Guid(f0b9154624b8f9d4692f87abfd3079ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa83fad54401e458f2160b5845c7e75') in 0.028721 seconds
+  Import took 0.032480 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.444906 seconds.
-  path: Assets/Sprite/Magic-Cliffs-Environment/PNG
-  artifactKey: Guid(63808f1af916d164b9f3dc24ea78a21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Magic-Cliffs-Environment/PNG using Guid(63808f1af916d164b9f3dc24ea78a21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ebdc080b04148c509fa8b0e5f9976d') in 0.025634 seconds
-  Import took 0.038841 seconds .
+  Time since last request: 0.000223 seconds.
+  path: Assets/Sprite/bomberman/enviroment.png
+  artifactKey: Guid(0647346ec7b2a8d46b78b50187c50b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/bomberman/enviroment.png using Guid(0647346ec7b2a8d46b78b50187c50b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7215950357f72a6c839e2df8a1664720') in 0.034139 seconds
+  Import took 0.038664 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001492 seconds.
-  path: Assets/Sprite/Magic-Cliffs-Environment/PNG
-  artifactKey: Guid(63808f1af916d164b9f3dc24ea78a21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Magic-Cliffs-Environment/PNG using Guid(63808f1af916d164b9f3dc24ea78a21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ebdc080b04148c509fa8b0e5f9976d') in 0.005012 seconds
-  Import took 0.013919 seconds .
+  Time since last request: 0.000313 seconds.
+  path: Assets/Sprite/bomberman/14bomberman.png
+  artifactKey: Guid(f0b9154624b8f9d4692f87abfd3079ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/bomberman/14bomberman.png using Guid(f0b9154624b8f9d4692f87abfd3079ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa83fad54401e458f2160b5845c7e75') in 0.014044 seconds
+  Import took 0.018452 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.090013 seconds.
-  path: Assets/Sprite/Magic-Cliffs-Environment/PNG/clouds.png
-  artifactKey: Guid(b0d53d1294c0c7e4ebb9e007c0eff155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Magic-Cliffs-Environment/PNG/clouds.png using Guid(b0d53d1294c0c7e4ebb9e007c0eff155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e379662817693407f40e378ff343bb3d') in 0.060161 seconds
-  Import took 0.073437 seconds .
+  Time since last request: 0.000288 seconds.
+  path: Assets/Sprite/bomberman/enviroment.png
+  artifactKey: Guid(0647346ec7b2a8d46b78b50187c50b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/bomberman/enviroment.png using Guid(0647346ec7b2a8d46b78b50187c50b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7215950357f72a6c839e2df8a1664720') in 0.021014 seconds
+  Import took 0.025325 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000537 seconds.
-  path: Assets/Sprite/Magic-Cliffs-Environment/PNG/sky.png
-  artifactKey: Guid(c5896e7aa6c3fc64a939f804458d0263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Magic-Cliffs-Environment/PNG/sky.png using Guid(c5896e7aa6c3fc64a939f804458d0263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4782b95a363522d0e3c7a899051c0eb8') in 0.044730 seconds
-  Import took 0.057402 seconds .
+  Time since last request: 98.710611 seconds.
+  path: Assets/Sprite/bomberman/utils.png
+  artifactKey: Guid(c43182ba97d0e414e94f2ba995fafaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/bomberman/utils.png using Guid(c43182ba97d0e414e94f2ba995fafaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa6d2217d0651ab0b47290cee4ac97c') in 0.027910 seconds
+  Import took 0.032854 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000723 seconds.
-  path: Assets/Sprite/Magic-Cliffs-Environment/PNG/far-grounds.png
-  artifactKey: Guid(fb7584eb80daece4e8ae99bb86e9bcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Magic-Cliffs-Environment/PNG/far-grounds.png using Guid(fb7584eb80daece4e8ae99bb86e9bcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0723cd90cbf1e86ed21b124677754027') in 0.077130 seconds
-  Import took 0.093652 seconds .
+  Time since last request: 39.483258 seconds.
+  path: Assets/Sprite/bomberman/utils.png
+  artifactKey: Guid(c43182ba97d0e414e94f2ba995fafaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/bomberman/utils.png using Guid(c43182ba97d0e414e94f2ba995fafaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb47aa7257efbf0256590136fe3969e5') in 0.017172 seconds
+  Import took 0.021650 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000715 seconds.
-  path: Assets/Sprite/Magic-Cliffs-Environment/PNG/tileset.png
-  artifactKey: Guid(8fc17c0bd4d11fe42a5929f1f104b0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Magic-Cliffs-Environment/PNG/tileset.png using Guid(8fc17c0bd4d11fe42a5929f1f104b0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637fe78fb2116e87b0a28a5fc1fcddd0') in 0.352315 seconds
-  Import took 0.368573 seconds .
+  Time since last request: 41.932780 seconds.
+  path: Assets/Sprite/Blue_witch/B_witch.gif
+  artifactKey: Guid(bb3e035fe1579e446bc8dcaa867ffc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Blue_witch/B_witch.gif using Guid(bb3e035fe1579e446bc8dcaa867ffc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df02309addd6341bd9fa046a05e8e4f6') in 0.024989 seconds
+  Import took 0.029226 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000612 seconds.
-  path: Assets/Sprite/Magic-Cliffs-Environment/PNG/far-grounds.png
-  artifactKey: Guid(fb7584eb80daece4e8ae99bb86e9bcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Magic-Cliffs-Environment/PNG/far-grounds.png using Guid(fb7584eb80daece4e8ae99bb86e9bcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0723cd90cbf1e86ed21b124677754027') in 0.019389 seconds
-  Import took 0.031181 seconds .
+  Time since last request: 0.000335 seconds.
+  path: Assets/Sprite/Blue_witch/B_witch_charge.png
+  artifactKey: Guid(87ea58ca0b86cea4bbc1fa0d96f8727f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Blue_witch/B_witch_charge.png using Guid(87ea58ca0b86cea4bbc1fa0d96f8727f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa795bf15a0d62ca5b85518316e7329') in 0.041674 seconds
+  Import took 0.044568 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000602 seconds.
-  path: Assets/Sprite/Magic-Cliffs-Environment/PNG/sea.png
-  artifactKey: Guid(efbeb6c17cb99b047a702d4af0c498a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Magic-Cliffs-Environment/PNG/sea.png using Guid(efbeb6c17cb99b047a702d4af0c498a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16a9b48bc7538db036bfc20444b8858') in 0.059659 seconds
-  Import took 0.073234 seconds .
+  Time since last request: 0.000289 seconds.
+  path: Assets/Sprite/Blue_witch/B_witch_death.png
+  artifactKey: Guid(2c25e5a608b96e547b066b2f9b98df8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Blue_witch/B_witch_death.png using Guid(2c25e5a608b96e547b066b2f9b98df8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc9c7d66a4827e5128330d3295aaabe') in 0.019641 seconds
+  Import took 0.023562 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009021 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.637 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.9 MB.
-System memory in use after: 95.9 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2641.
-Total: 6.104100 ms (FindLiveObjects: 0.372100 ms CreateObjectMapping: 0.191700 ms MarkObjects: 5.186100 ms  DeleteObjects: 0.351100 ms)
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Sprite/Blue_witch/B_witch_idle.png
+  artifactKey: Guid(0c074cd78cf3ff54daa3338bbcf64881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Blue_witch/B_witch_idle.png using Guid(0c074cd78cf3ff54daa3338bbcf64881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0260b8d914c270f994143223782b778d') in 0.021374 seconds
+  Import took 0.025274 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004533 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.519 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.9 MB.
-System memory in use after: 96.0 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2645.
-Total: 4.891800 ms (FindLiveObjects: 0.336900 ms CreateObjectMapping: 0.158700 ms MarkObjects: 4.191400 ms  DeleteObjects: 0.202800 ms)
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Sprite/Blue_witch/B_witch_attack.png
+  artifactKey: Guid(87bf03c0987fd6742be1d3c35aa6d41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Blue_witch/B_witch_attack.png using Guid(87bf03c0987fd6742be1d3c35aa6d41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55fca6978d7b2b186c6713b89a94b1e1') in 0.038630 seconds
+  Import took 0.042092 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004932 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.751 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.0 MB.
-System memory in use after: 96.0 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2649.
-Total: 3.572700 ms (FindLiveObjects: 0.258000 ms CreateObjectMapping: 0.110000 ms MarkObjects: 3.034500 ms  DeleteObjects: 0.168600 ms)
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Sprite/Blue_witch/B_witch_run.png
+  artifactKey: Guid(aa4d591cf02c65e43b0741592b85224a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Blue_witch/B_witch_run.png using Guid(aa4d591cf02c65e43b0741592b85224a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6a882ece47c97f79eed681b7722795') in 0.025850 seconds
+  Import took 0.030480 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011743 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.440 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.0 MB.
-System memory in use after: 96.0 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2653.
-Total: 6.883100 ms (FindLiveObjects: 0.480000 ms CreateObjectMapping: 0.215300 ms MarkObjects: 5.961300 ms  DeleteObjects: 0.224000 ms)
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Sprite/Blue_witch/B_witch_take_damage.png
+  artifactKey: Guid(4a7456b7b1ba5b1438c586e316f84a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Blue_witch/B_witch_take_damage.png using Guid(4a7456b7b1ba5b1438c586e316f84a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e82772dd6c68614016e9ce4dd6f845d6') in 0.027513 seconds
+  Import took 0.030779 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004145 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.393 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.0 MB.
-System memory in use after: 96.0 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2657.
-Total: 5.431600 ms (FindLiveObjects: 0.365300 ms CreateObjectMapping: 0.172200 ms MarkObjects: 4.710700 ms  DeleteObjects: 0.181400 ms)
+Received Import Request.
+  Time since last request: 0.004755 seconds.
+  path: Assets/Sprite/Blue_witch/B_witch_take_damage.png
+  artifactKey: Guid(4a7456b7b1ba5b1438c586e316f84a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Blue_witch/B_witch_take_damage.png using Guid(4a7456b7b1ba5b1438c586e316f84a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e82772dd6c68614016e9ce4dd6f845d6') in 0.008286 seconds
+  Import took 0.013048 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004635 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.009 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.0 MB.
-System memory in use after: 96.0 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2661.
-Total: 4.189000 ms (FindLiveObjects: 0.381200 ms CreateObjectMapping: 0.114800 ms MarkObjects: 3.484800 ms  DeleteObjects: 0.206000 ms)
+Received Import Request.
+  Time since last request: 79.306506 seconds.
+  path: Assets/Sprite/Magic-Cliffs-Environment/PREVIEWS/100x100x1.png
+  artifactKey: Guid(ae365fdbdbf5f654cbb578fdda318597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Magic-Cliffs-Environment/PREVIEWS/100x100x1.png using Guid(ae365fdbdbf5f654cbb578fdda318597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dab8b2cca9b6454cd5a3bb8570e4f5a') in 0.023535 seconds
+  Import took 0.027287 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005365 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.780 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.0 MB.
-System memory in use after: 96.0 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2665.
-Total: 3.317500 ms (FindLiveObjects: 0.266100 ms CreateObjectMapping: 0.155600 ms MarkObjects: 2.730900 ms  DeleteObjects: 0.163500 ms)
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Sprite/Magic-Cliffs-Environment/PREVIEWS/magic-cliffs-PREVIEWx1.png
+  artifactKey: Guid(d036bbecb6cb9d545824a495d393755e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Magic-Cliffs-Environment/PREVIEWS/magic-cliffs-PREVIEWx1.png using Guid(d036bbecb6cb9d545824a495d393755e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c883ba503929aa5b2efc6f3c7ba6412') in 0.030026 seconds
+  Import took 0.033528 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005590 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.481 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.0 MB.
-System memory in use after: 96.0 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2669.
-Total: 4.894600 ms (FindLiveObjects: 0.370000 ms CreateObjectMapping: 0.167100 ms MarkObjects: 4.173600 ms  DeleteObjects: 0.181700 ms)
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Sprite/Magic-Cliffs-Environment/PREVIEWS/magic-cliffs-preview-detail.png
+  artifactKey: Guid(619182e5695579b4b9e39bbf1e9dcd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Magic-Cliffs-Environment/PREVIEWS/magic-cliffs-preview-detail.png using Guid(619182e5695579b4b9e39bbf1e9dcd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e604a53f30ddc02a023b61b0cd4665') in 0.028449 seconds
+  Import took 0.032534 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004228 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.884 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.0 MB.
-System memory in use after: 96.1 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2673.
-Total: 4.913000 ms (FindLiveObjects: 0.375000 ms CreateObjectMapping: 0.171900 ms MarkObjects: 4.183900 ms  DeleteObjects: 0.180000 ms)
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Sprite/Magic-Cliffs-Environment/PREVIEWS/magic-cliffs-preview-detailx1.png
+  artifactKey: Guid(5a04977dc4a8ca84b901fa98fe746739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Magic-Cliffs-Environment/PREVIEWS/magic-cliffs-preview-detailx1.png using Guid(5a04977dc4a8ca84b901fa98fe746739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48187cd1266240d5f417e4fafdc42ac0') in 0.032015 seconds
+  Import took 0.037899 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006089 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.862 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.1 MB.
-System memory in use after: 96.1 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2677.
-Total: 3.717700 ms (FindLiveObjects: 0.413800 ms CreateObjectMapping: 0.156700 ms MarkObjects: 2.961800 ms  DeleteObjects: 0.183600 ms)
+Received Import Request.
+  Time since last request: 0.002068 seconds.
+  path: Assets/Sprite/Magic-Cliffs-Environment/PREVIEWS/magic-cliffs-preview-detailx1.png
+  artifactKey: Guid(5a04977dc4a8ca84b901fa98fe746739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Magic-Cliffs-Environment/PREVIEWS/magic-cliffs-preview-detailx1.png using Guid(5a04977dc4a8ca84b901fa98fe746739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48187cd1266240d5f417e4fafdc42ac0') in 0.020508 seconds
+  Import took 0.027841 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005211 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.457 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.1 MB.
-System memory in use after: 96.1 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2681.
-Total: 4.297900 ms (FindLiveObjects: 0.376500 ms CreateObjectMapping: 0.176200 ms MarkObjects: 3.511100 ms  DeleteObjects: 0.231700 ms)
+Received Import Request.
+  Time since last request: 11.681373 seconds.
+  path: Assets/Prefabs/MainCat.prefab
+  artifactKey: Guid(5030b5e9cb297694d9a48b95d4ffe784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MainCat.prefab using Guid(5030b5e9cb297694d9a48b95d4ffe784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb50b8ea48cadf6db87f9ee31a81c5c') in 0.059421 seconds
+  Import took 0.063750 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006601 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.788 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.1 MB.
-System memory in use after: 96.1 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2685.
-Total: 3.496000 ms (FindLiveObjects: 0.307100 ms CreateObjectMapping: 0.113000 ms MarkObjects: 2.812700 ms  DeleteObjects: 0.261600 ms)
+Received Import Request.
+  Time since last request: 15.710233 seconds.
+  path: Assets/Sprite/Magic-Cliffs-Environment
+  artifactKey: Guid(3efa8f817d2eb5b439494cddf5f280c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Magic-Cliffs-Environment using Guid(3efa8f817d2eb5b439494cddf5f280c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35c47c53238018f1bc631d0105ae3e1') in 0.012512 seconds
+  Import took 0.016146 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004376 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.696 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.1 MB.
-System memory in use after: 96.1 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2689.
-Total: 3.981000 ms (FindLiveObjects: 0.411300 ms CreateObjectMapping: 0.243600 ms MarkObjects: 3.146100 ms  DeleteObjects: 0.178200 ms)
+Received Import Request.
+  Time since last request: 4.581192 seconds.
+  path: Assets/Sprite/bomberman
+  artifactKey: Guid(f5c16086c1d6f4745ac410e3fa78956d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/bomberman using Guid(f5c16086c1d6f4745ac410e3fa78956d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd7aa5fd32c65437d740e02dacced22') in 0.006431 seconds
+  Import took 0.010753 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013820 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  4.017 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.1 MB.
-System memory in use after: 96.1 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2693.
-Total: 7.156900 ms (FindLiveObjects: 0.754200 ms CreateObjectMapping: 0.380600 ms MarkObjects: 5.783300 ms  DeleteObjects: 0.235400 ms)
+Received Import Request.
+  Time since last request: 31.585925 seconds.
+  path: Assets/Sprite/bomberman/utils.png
+  artifactKey: Guid(c43182ba97d0e414e94f2ba995fafaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/bomberman/utils.png using Guid(c43182ba97d0e414e94f2ba995fafaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3ae0cd3853b376597710326f79ea3d') in 0.006387 seconds
+  Import took 0.010164 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005071 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.882 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.1 MB.
-System memory in use after: 96.1 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2697.
-Total: 2.417300 ms (FindLiveObjects: 0.259700 ms CreateObjectMapping: 0.154400 ms MarkObjects: 1.878500 ms  DeleteObjects: 0.123900 ms)
+Received Import Request.
+  Time since last request: 0.012956 seconds.
+  path: Assets/Sprite/bomberman/utils.png
+  artifactKey: Guid(c43182ba97d0e414e94f2ba995fafaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/bomberman/utils.png using Guid(c43182ba97d0e414e94f2ba995fafaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3ae0cd3853b376597710326f79ea3d') in 0.005009 seconds
+  Import took 0.008707 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002666 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.890 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.1 MB.
-System memory in use after: 96.1 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2701.
-Total: 2.153100 ms (FindLiveObjects: 0.182800 ms CreateObjectMapping: 0.071500 ms MarkObjects: 1.816600 ms  DeleteObjects: 0.081100 ms)
+Received Import Request.
+  Time since last request: 132.205474 seconds.
+  path: Assets/Sprite/Blue_witch
+  artifactKey: Guid(b63211b8e3e482346a63072d4ec31de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Blue_witch using Guid(b63211b8e3e482346a63072d4ec31de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87810d592a3e9e3886bf7ee1402ab8a1') in 0.009453 seconds
+  Import took 0.012593 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002570 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.892 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.1 MB.
-System memory in use after: 96.1 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2705.
-Total: 2.199800 ms (FindLiveObjects: 0.186600 ms CreateObjectMapping: 0.075500 ms MarkObjects: 1.814500 ms  DeleteObjects: 0.122300 ms)
+Received Import Request.
+  Time since last request: 103.085502 seconds.
+  path: Assets/Sprite/Blue_witch/B_witch_run.png
+  artifactKey: Guid(aa4d591cf02c65e43b0741592b85224a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Blue_witch/B_witch_run.png using Guid(aa4d591cf02c65e43b0741592b85224a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ae3cff6c6aad7f3971f6200b74fdb8') in 0.014418 seconds
+  Import took 0.019890 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002756 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.002 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.1 MB.
-System memory in use after: 96.1 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2709.
-Total: 2.701500 ms (FindLiveObjects: 0.228500 ms CreateObjectMapping: 0.093700 ms MarkObjects: 2.280300 ms  DeleteObjects: 0.097600 ms)
+Received Import Request.
+  Time since last request: 23.120812 seconds.
+  path: Assets/Sprite/Blue_witch/B_witch_run.png
+  artifactKey: Guid(aa4d591cf02c65e43b0741592b85224a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Blue_witch/B_witch_run.png using Guid(aa4d591cf02c65e43b0741592b85224a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b71fa0e8ddad64ff576380bcbec958c5') in 0.046447 seconds
+  Import took 0.049860 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002582 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.867 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.2 MB.
-System memory in use after: 96.2 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2713.
-Total: 2.379000 ms (FindLiveObjects: 0.225200 ms CreateObjectMapping: 0.069200 ms MarkObjects: 1.965200 ms  DeleteObjects: 0.118700 ms)
+Received Import Request.
+  Time since last request: 44.282098 seconds.
+  path: Assets/Sprite/Blue_witch/B_witch_run.png
+  artifactKey: Guid(aa4d591cf02c65e43b0741592b85224a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Blue_witch/B_witch_run.png using Guid(aa4d591cf02c65e43b0741592b85224a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38537d6a8b965c262f6e1522ce80d4f2') in 0.010582 seconds
+  Import took 0.014438 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002805 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.001 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.2 MB.
-System memory in use after: 96.4 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2717.
-Total: 2.472400 ms (FindLiveObjects: 0.275900 ms CreateObjectMapping: 0.106600 ms MarkObjects: 2.001100 ms  DeleteObjects: 0.087900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002698 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.118 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.3 MB.
-System memory in use after: 96.4 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2721.
-Total: 2.463600 ms (FindLiveObjects: 0.230100 ms CreateObjectMapping: 0.087600 ms MarkObjects: 2.064600 ms  DeleteObjects: 0.080300 ms)
+Received Import Request.
+  Time since last request: 0.006004 seconds.
+  path: Assets/Sprite/Blue_witch/B_witch_run.png
+  artifactKey: Guid(aa4d591cf02c65e43b0741592b85224a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Blue_witch/B_witch_run.png using Guid(aa4d591cf02c65e43b0741592b85224a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38537d6a8b965c262f6e1522ce80d4f2') in 0.009240 seconds
+  Import took 0.013659 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

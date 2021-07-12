@@ -24,34 +24,6 @@ public class CameraFollow : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        //    Vector3 curPos = transform.position;
-        //    float targetY = target.position.y;
-        //    float transformY = transform.position.y;
-        //    //if(targetY - transformY >dif || transformY - targetY > dif/2)
-        //    if(Math.Abs(targetY-transformY)>dif)
-        //    {
-        //        if (targetY < this.initCamY)
-        //            curPos.y = this.initCamY;
-        //        else curPos.y = targetY;
-        //        curPos.z = target.position.z + offset.z;
-        //        transform.position = curPos;
-        //    }
-
-        //Vector3 curPos = transform.position;
-        //Vector3 destPos = target.position + offset;
-        //if(Math.Abs(destPos.y - curPos.y) > dif || curPos.y - destPos.y > dif/2)
-        //{
-        //    if(destPos.y < minY)
-        //    {
-        //        destPos.y = minY;
-        //    }
-        //    if (destPos.y > maxY)
-        //        destPos.y = maxY;
-        //    destPos.x = curPos.x;
-        //    Vector3 smooth = Vector3.Lerp(curPos, destPos, timeFactor * Time.deltaTime);
-        //    transform.position = smooth;
-        //}
-
         Vector3 cameraCurPos = transform.position;
         Vector3 targetPos = target.position + offset;
         float differenceTargetCamera = targetPos.y - cameraCurPos.y;

@@ -26,7 +26,6 @@ public class GameModeController : MonoBehaviour
         if (PlayerPrefs.GetInt("mode") == 1)
         {
             loadSinglePlayerMode();
-            PlayerPrefs.SetInt("skin2", 1);
         }
         else
         {
@@ -35,7 +34,6 @@ public class GameModeController : MonoBehaviour
             if (skinIndex1 == skinIndex2)
                 isChangeColor = true;
             loadSkinPlayer(2, skinIndex2, isChangeColor);
-            PlayerPrefs.SetInt("skin2", 1);
         }
 
     }

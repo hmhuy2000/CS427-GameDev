@@ -599,7 +599,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1223184075}
         m_TargetAssemblyTypeName: ChangeScreen, Assembly-CSharp
-        m_MethodName: LoadScene
+        m_MethodName: ModeMultiScene
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -756,8 +756,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00048065, y: -0.00049973}
-  m_SizeDelta: {x: 801, y: 284}
+  m_AnchoredPosition: {x: -0.00048065, y: 0}
+  m_SizeDelta: {x: 801, y: 446.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1212257032
 MonoBehaviour:
@@ -1142,7 +1142,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00024414, y: -46}
+  m_AnchoredPosition: {x: 0, y: -126.41}
   m_SizeDelta: {x: 801, y: 192}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1383665976
@@ -1552,7 +1552,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1223184075}
         m_TargetAssemblyTypeName: ChangeScreen, Assembly-CSharp
-        m_MethodName: LoadScene
+        m_MethodName: ModeSingleScene
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1636,7 +1636,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -315, y: 107}
+  m_AnchoredPosition: {x: -296, y: 175}
   m_SizeDelta: {x: 33.0517, y: 19.9463}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1835308133

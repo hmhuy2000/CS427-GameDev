@@ -180,9 +180,9 @@ public class CatMovement : MonoBehaviour
         return groundRaycastHit.collider != null;
     }
 
-    public void stopAction()
-    {
-        rigid.velocity = new Vector2(0, rigid.velocity.y);
-        anim.SetBool("walk", false);
-    }
+    //public void stopAction()
+    //{
+    //    rigid.velocity = new Vector2(0, rigid.velocity.y);
+    //    anim.SetBool("walk", false);
+    //}
 }

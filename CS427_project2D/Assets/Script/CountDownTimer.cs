@@ -9,8 +9,7 @@ public class CountDownTimer : MonoBehaviour
     [SerializeField] Text countDownText;
     [SerializeField] Text countDownText2;
     public GameOver gameOverScript;
-    [SerializeField] CatMovement cat1;
-    [SerializeField] CatMovement cat2;
+
 
     void Start()
     {
@@ -21,6 +20,10 @@ public class CountDownTimer : MonoBehaviour
 
     void Update()
     {
+        if(Input.GetKeyDown(KeyCode.P))
+        {
+            pauseGame();
+        }
         timeLeft -= 1*Time.deltaTime;
         if (timeLeft < 0)
         {
@@ -32,6 +35,11 @@ public class CountDownTimer : MonoBehaviour
         countDownText2.text = timeLeft.ToString("0");
     }
 
+    void pauseGame()
+    {
+        gameOverScript.displayPausePopup();
+    }
+
     public void resetDuration(float dur)
     {
         //timeLeft = dur;
@@ -40,11 +48,6 @@ public class CountDownTimer : MonoBehaviour
 
     void gameOver()
     {
-        gameOverScript.display();
-        cat1.stopAction();
-        cat2.stopAction();
-        cat1.enabled = false;
-        cat2.enabled = false;
-
+        gameOverScript.displayGameOver();
     }
 }

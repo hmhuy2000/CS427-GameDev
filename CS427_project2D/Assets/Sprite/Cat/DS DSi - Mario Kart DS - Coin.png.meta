@@ -97,10 +97,10 @@ TextureImporter:
       name: DS DSi - Mario Kart DS - Coin_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 208
-        width: 64
-        height: 65
+        x: 5
+        y: 209
+        width: 62
+        height: 62
       alignment: 9
       pivot: {x: 0.5000001, y: 0.49823633}
       border: {x: 0, y: 0, z: 0, w: 0}

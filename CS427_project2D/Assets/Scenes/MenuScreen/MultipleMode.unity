@@ -362,7 +362,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1040787532}
   - component: {fileID: 1040787530}
-  - component: {fileID: 1040787531}
   m_Layer: 0
   m_Name: Audio Source
   m_TagString: Untagged
@@ -384,7 +383,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -466,18 +465,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1040787531
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1040787529}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8bf08e06ca44064ba55f0a7a26e9662, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1040787532
 Transform:
   m_ObjectHideFlags: 0
@@ -1058,7 +1045,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.8666667, b: 0.046906088, a: 1}
+  m_Color: {r: 0.6037736, g: 0.6037736, b: 0.6037736, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1119,7 +1106,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -202.5, y: 112}
+  m_AnchoredPosition: {x: -272, y: 154}
   m_SizeDelta: {x: 33.0517, y: 19.9463}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1548560501

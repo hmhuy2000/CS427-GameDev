@@ -8,6 +8,7 @@ public class ItemMovement : MonoBehaviour
     Rigidbody2D rigid;
     BoxCollider2D boxCollider2D;
     private Vector2 screenBounds;
+    [SerializeField] float flySpeed = 1f;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +21,7 @@ public class ItemMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        rigid.velocity = new Vector2(0, 0.75f);
+        rigid.velocity = new Vector2(0, flySpeed);
         if(transform.position.y > screenBounds.y * 2){
             Destroy(this.gameObject);
         }

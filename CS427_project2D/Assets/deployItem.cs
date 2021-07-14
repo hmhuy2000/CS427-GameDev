@@ -18,7 +18,7 @@ public class deployItem : MonoBehaviour
     IEnumerator itemWave(){
         while(true){
             
-            yield return new WaitForSeconds(Random.Range(5, 60));
+            yield return new WaitForSeconds(Random.Range(5, 20));
             spawnItem();
         }
     }

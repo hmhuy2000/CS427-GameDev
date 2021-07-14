@@ -34,6 +34,7 @@ public class GameModeController : MonoBehaviour
             bool isChangeColor = false;
             if (skinIndex1 == skinIndex2)
                 isChangeColor = true;
+            Debug.Log("change skin p2" + isChangeColor);
             loadSkinPlayer(2, skinIndex2, isChangeColor);
         }
 

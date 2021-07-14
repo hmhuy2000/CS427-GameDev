@@ -162,6 +162,8 @@ MonoBehaviour:
   is_freezing: 0
   freezing_time: 0
   freezing_limit: 5
+  id: 1
+  timer: {fileID: 0}
 --- !u!95 &178510947897756257
 Animator:
   serializedVersion: 3

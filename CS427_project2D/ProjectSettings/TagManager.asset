@@ -8,6 +8,7 @@ TagManager:
   - item_freeze
   - item_hook
   - item_boost_speed
+  - destination
   layers:
   - Default
   - TransparentFX

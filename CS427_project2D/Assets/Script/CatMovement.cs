@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class CatMovement : MonoBehaviour
 {
@@ -32,6 +34,9 @@ public class CatMovement : MonoBehaviour
     bool isWalking = false;
     bool isJumping = false;
 
+    [SerializeField] int id;
+    [SerializeField] Text timer;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -46,6 +51,7 @@ public class CatMovement : MonoBehaviour
         is_freezing = true;
         walkSpeed /= 2f;
     }
+
     void OnTriggerEnter2D(Collider2D other) {
         if (other.gameObject.CompareTag("item_hook")){
             Destroy(other.gameObject);
@@ -65,6 +71,11 @@ public class CatMovement : MonoBehaviour
             is_boosting = true;
             walkSpeed *= 2f;
 
+        }
+
+        if (other.gameObject.CompareTag("destination"))
+        {
+            finishLevel();
         }
 
         
@@ -142,47 +153,40 @@ public class CatMovement : MonoBehaviour
             extraHeightGroundCheck,
             groundLayerMask
             );
-        //if (groundRaycastHit.collider != null)
-        //    return true;
-
-        //RaycastHit2D catRaycastHit = Physics2D.BoxCast(
-        //    boxCollider2D.bounds.center,
-        //    boxCollider2D.bounds.size,
-        //    0f,
-        //    Vector2.down,
-        //    extraHeightGroundCheck,
-        //    catLayerMask
-        //    );
-
-
-
-        //Color rayColor;
-        //if (raycastHit2D.collider != null)
-        //{
-        //    rayColor = Color.green;
-        //}
-        //else rayColor = Color.red;
-        //Debug.DrawRay(
-        //    boxCollider2D.bounds.center + new Vector3(boxCollider2D.bounds.extents.x, 0),
-        //    Vector2.down * (boxCollider2D.bounds.extents.y + extraHeightGroundCheck),
-        //    rayColor
-        //    );
-        //Debug.DrawRay(
-        //    boxCollider2D.bounds.center - new Vector3(boxCollider2D.bounds.extents.x, 0),
-        //    Vector2.down * (boxCollider2D.bounds.extents.y + extraHeightGroundCheck),
-        //    rayColor
-        //    );
-        //Debug.DrawRay(
-        //    boxCollider2D.bounds.center - new Vector3(boxCollider2D.bounds.extents.x, boxCollider2D.bounds.extents.y + extraHeightGroundCheck),
-        //    Vector2.right * 2 * boxCollider2D.bounds.extents.x,
-        //    rayColor
-        //    );
+        
         return groundRaycastHit.collider != null;
     }
 
-    //public void stopAction()
-    //{
-    //    rigid.velocity = new Vector2(0, rigid.velocity.y);
-    //    anim.SetBool("walk", false);
-    //}
+    void finishLevel()
+    {
+        string prefMode = "mode";
+        string prefLevel = "level";
+        string prefMaxUnlockedLevel = "maxUnlockedLevel";
+        string prefMaxLevel = "maxLevel";
+
+
+        int mode = PlayerPrefs.GetInt(prefMode, 1);
+        if (mode == 1)
+        {
+            int level = PlayerPrefs.GetInt(prefLevel, 1)+1;
+            int maxUnlockedLevel = PlayerPrefs.GetInt(prefMaxUnlockedLevel, 1);
+            if(level > maxUnlockedLevel) // unlock new level
+            {
+                int maxLevel = PlayerPrefs.GetInt(prefMaxLevel, 2);
+                if(level <= maxLevel) // not max level -> update max unlock level
+                {
+                    PlayerPrefs.SetInt(prefMaxUnlockedLevel, level);
+                }
+            }
+            
+            PlayerPrefs.SetInt("timeLeft", int.Parse(timer.text));
+            SceneManager.LoadScene("VictorySingle");
+
+        }
+        else if (mode == 2)
+        {
+            PlayerPrefs.SetInt("winner", id);
+            SceneManager.LoadScene("VictoryMulti");
+        }
+    }
 }

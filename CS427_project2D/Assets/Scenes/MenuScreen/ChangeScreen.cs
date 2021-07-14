@@ -7,7 +7,6 @@ public class ChangeScreen : MonoBehaviour
 {
     public void LoadScene(string sceneName)
     {
-        PlayerPrefs.SetString("scene", sceneName);
         SceneManager.LoadScene(sceneName);
     }
 
@@ -23,5 +22,14 @@ public class ChangeScreen : MonoBehaviour
         LoadScene(sceneName);
     }
 
+    public void LoadLevel(int level)
+    {
+        int maxUnlockedLevel = PlayerPrefs.GetInt("maxUnlockedLevel", 1);
+        if (level <= maxUnlockedLevel)
+        {
+            PlayerPrefs.SetInt("level", level);
+            LoadScene("Level" + level);
+        }
+    }
 
 }

@@ -42,7 +42,7 @@ public class CountDownTimer : MonoBehaviour
 
     public void resetDuration(float dur)
     {
-        //timeLeft = dur;
+        timeLeft = dur;
         duration = dur;
     }
 

@@ -11,7 +11,8 @@ public class GameModeController : MonoBehaviour
     CameraFollow cameraScript;
     private CountDownTimer timerScript;
     public float duration = -1;
-    
+
+
     GameModeController()
     {
     }
@@ -37,7 +38,6 @@ public class GameModeController : MonoBehaviour
         }
 
     }
-
 
 
     void loadSinglePlayerMode()

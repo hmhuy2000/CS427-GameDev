@@ -20,9 +20,12 @@ public class CatMovement : MonoBehaviour
     public float jumpSpeed = 100f;
     public float runSpeed = 5f;
     public float walkSpeed = 2f;
-    public bool is_boosting = false;
-    public float boost_time = 0f;
-    public float boost_limit = 5f;
+    public bool is_boosting_speed = false;
+    public float boost_time_speed = 0f;
+    public float boost_limit_speed = 5f;
+    public bool is_boosting_jump = false;
+    public float boost_time_jump = 0f;
+    public float boost_limit_jump = 5f;
 
     public bool is_freezing = false;
     public float freezing_time = 0f;
@@ -67,9 +70,17 @@ public class CatMovement : MonoBehaviour
 
         if (other.gameObject.CompareTag("item_boost_speed")){
             Destroy(other.gameObject);
-            boost_time = 0f;
-            is_boosting = true;
+            boost_time_speed = 0f;
+            is_boosting_speed = true;
             walkSpeed *= 2f;
+
+        }
+
+        if (other.gameObject.CompareTag("item_boost_jump")){
+            Destroy(other.gameObject);
+            boost_time_jump = 0f;
+            is_boosting_jump = true;
+            jumpSpeed *= 1.5f;
 
         }
 
@@ -115,12 +126,21 @@ public class CatMovement : MonoBehaviour
             isWalking = false;
         }
 
-        if (is_boosting){
-            boost_time += Time.deltaTime;
-            if (boost_time>=boost_limit){
-                boost_time = 0f;
-                is_boosting = false;
+        if (is_boosting_speed){
+            boost_time_speed += Time.deltaTime;
+            if (boost_time_speed>=boost_limit_speed){
+                boost_time_speed = 0f;
+                is_boosting_speed = false;
                 walkSpeed /= 2f;
+            }
+        }
+
+        if (is_boosting_jump){
+            boost_time_jump += Time.deltaTime;
+            if (boost_time_jump>=boost_limit_jump){
+                boost_time_jump = 0f;
+                is_boosting_jump = false;
+                jumpSpeed /= 1.5f;
             }
         }
 

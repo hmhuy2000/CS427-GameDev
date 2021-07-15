@@ -11,6 +11,7 @@ public class GameModeController : MonoBehaviour
     CameraFollow cameraScript;
     private CountDownTimer timerScript;
     public float duration = -1;
+    [SerializeField] GameObject item_object; 
 
 
     GameModeController()
@@ -27,6 +28,18 @@ public class GameModeController : MonoBehaviour
         if (PlayerPrefs.GetInt("mode") == 1)
         {
             loadSinglePlayerMode();
+            Component[] item_component;
+            item_component = item_object.GetComponents(typeof(deployItem));
+            
+           int cnt = 0;
+            foreach (deployItem comp  in item_component){
+                cnt += 1;
+                if (cnt<=2){
+                    comp.useSpring = true;
+                }
+                else comp.useSpring = false;
+            }
+
         }
         else
         {
@@ -36,6 +49,10 @@ public class GameModeController : MonoBehaviour
                 isChangeColor = true;
             Debug.Log("change skin p2" + isChangeColor);
             loadSkinPlayer(2, skinIndex2, isChangeColor);
+            Component[] item_component;
+            item_component = item_object.GetComponents(typeof(deployItem));
+            foreach (deployItem comp  in item_component)
+                comp.useSpring = true;
         }
 
     }

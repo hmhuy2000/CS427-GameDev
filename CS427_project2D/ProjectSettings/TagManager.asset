@@ -9,6 +9,7 @@ TagManager:
   - item_hook
   - item_boost_speed
   - destination
+  - item_boost_jump
   layers:
   - Default
   - TransparentFX

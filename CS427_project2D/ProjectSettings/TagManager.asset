@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - ground
+  - item_freeze
+  - item_hook
+  - item_boost_speed
+  - destination
   layers:
   - Default
   - TransparentFX
@@ -13,8 +17,8 @@ TagManager:
   - Water
   - UI
   - Ground
-  - 
-  - 
+  - p1
+  - p2
   - 
   - 
   - 

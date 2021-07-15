@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class CatMovement : MonoBehaviour
 {
@@ -9,10 +11,22 @@ public class CatMovement : MonoBehaviour
     BoxCollider2D boxCollider2D;
     Animator anim;
     [SerializeField] private LayerMask groundLayerMask;
+    public GameObject opponent;
 
-    public float jumpSpeed = 5f;
+    public KeyCode leftKey;
+    public KeyCode rightKey;
+    public KeyCode jumpKey;
+
+    public float jumpSpeed = 100f;
     public float runSpeed = 5f;
     public float walkSpeed = 2f;
+    public bool is_boosting = false;
+    public float boost_time = 0f;
+    public float boost_limit = 5f;
+
+    public bool is_freezing = false;
+    public float freezing_time = 0f;
+    public float freezing_limit = 5f;
 
     float curJumpSpeed = 0;
     float curWalkSpeed = 0;
@@ -20,56 +34,78 @@ public class CatMovement : MonoBehaviour
     bool isWalking = false;
     bool isJumping = false;
 
+    [SerializeField] int id;
+    [SerializeField] Text timer;
+
     // Start is called before the first frame update
     void Start()
     {
         curMove = transform.position;
         rigid = GetComponent<Rigidbody2D>();
         boxCollider2D = GetComponent<BoxCollider2D>();
-        anim = GetComponent<Animator>();
+        anim = GetComponent<Animator>();        
+    }
+
+    public void freeze(){
+        freezing_time = 0f;
+        is_freezing = true;
+        walkSpeed /= 2f;
+    }
+
+    void OnTriggerEnter2D(Collider2D other) {
+        if (other.gameObject.CompareTag("item_hook")){
+            Destroy(other.gameObject);
+            opponent.transform.position = new Vector2(transform.position.x, transform.position.y);
+
+        }
+
+        if (other.gameObject.CompareTag("item_freeze")){
+            Destroy(other.gameObject);
+            opponent.GetComponent<CatMovement>().freeze();
+
+        }
+
+        if (other.gameObject.CompareTag("item_boost_speed")){
+            Destroy(other.gameObject);
+            boost_time = 0f;
+            is_boosting = true;
+            walkSpeed *= 2f;
+
+        }
+
+        if (other.gameObject.CompareTag("destination"))
+        {
+            finishLevel();
+        }
+
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        //if (Input.GetKeyDown(KeyCode.Space)){
-        //    curMove.y += 0.5f;
-        //}
-        //else
-        //{
-        //    curMove.y -= 0.01f;
-        //    if (curMove.y < 0)
-        //        curMove.y = 0;
-        //}
-        //transform.position = curMove;
-
-        if (isGround() && Input.GetKeyDown(KeyCode.Space))
+        if (isGround() && Input.GetKeyDown(jumpKey))
         {
-            //rigid.velocity = new Vector2(0, jumpSpeed);
             isJumping = true;
-            curJumpSpeed = rigid.velocity.y + jumpSpeed;
-            //rigid.velocity = Vector2.up * jumpSpeed;
-            rigid.velocity = new Vector2(curWalkSpeed, curJumpSpeed);
+            curJumpSpeed = jumpSpeed;
+            rigid.AddForce(new Vector2(0, jumpSpeed));
             anim.SetTrigger("jump");
+
         }
         else
         {
-            isJumping = false;
             curJumpSpeed = rigid.velocity.y;
+            isJumping = false;
         }
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKey(leftKey))
         {
-            //rigid.velocity = new Vector2(-walkSpeed, 0);
             curWalkSpeed = -walkSpeed;
-            //anim.Play("CatWalk");
             GetComponent<SpriteRenderer>().flipX = true;
             isWalking = true;
         }
-        else if (Input.GetKey(KeyCode.RightArrow))
+        else if (Input.GetKey(rightKey))
         {
-            //rigid.velocity = new Vector2(walkSpeed, 0);
             curWalkSpeed = walkSpeed;
-            //anim.Play("CatWalk");
             GetComponent<SpriteRenderer>().flipX = false;
             isWalking = true;
         }
@@ -78,18 +114,38 @@ public class CatMovement : MonoBehaviour
             curWalkSpeed = 0;
             isWalking = false;
         }
+
+        if (is_boosting){
+            boost_time += Time.deltaTime;
+            if (boost_time>=boost_limit){
+                boost_time = 0f;
+                is_boosting = false;
+                walkSpeed /= 2f;
+            }
+        }
+
+        if (is_freezing){
+            freezing_time += Time.deltaTime;
+            if (freezing_time>=freezing_limit){
+                freezing_time = 0f;
+                is_freezing = false;
+                walkSpeed *= 2f;
+            }
+        }
     }
 
     private void FixedUpdate()
     {
         rigid.velocity = new Vector2(curWalkSpeed, rigid.velocity.y);
         anim.SetBool("walk", isWalking);
+        //if (isJumping)
         
     }
+
     bool isGround()
     {
         float extraHeightGroundCheck = 0.1f;
-        RaycastHit2D raycastHit2D = Physics2D.BoxCast(
+        RaycastHit2D groundRaycastHit = Physics2D.BoxCast(
             boxCollider2D.bounds.center,
             boxCollider2D.bounds.size,
             0f,
@@ -97,29 +153,40 @@ public class CatMovement : MonoBehaviour
             extraHeightGroundCheck,
             groundLayerMask
             );
+        
+        return groundRaycastHit.collider != null;
+    }
 
-        Color rayColor;
-        if (raycastHit2D.collider != null)
+    void finishLevel()
+    {
+        string prefMode = "mode";
+        string prefLevel = "level";
+        string prefMaxUnlockedLevel = "maxUnlockedLevel";
+        string prefMaxLevel = "maxLevel";
+
+
+        int mode = PlayerPrefs.GetInt(prefMode, 1);
+        if (mode == 1)
         {
-            rayColor = Color.green;
+            int level = PlayerPrefs.GetInt(prefLevel, 1)+1;
+            int maxUnlockedLevel = PlayerPrefs.GetInt(prefMaxUnlockedLevel, 1);
+            if(level > maxUnlockedLevel) // unlock new level
+            {
+                int maxLevel = PlayerPrefs.GetInt(prefMaxLevel, 2);
+                if(level <= maxLevel) // not max level -> update max unlock level
+                {
+                    PlayerPrefs.SetInt(prefMaxUnlockedLevel, level);
+                }
+            }
+            
+            PlayerPrefs.SetInt("timeLeft", int.Parse(timer.text));
+            SceneManager.LoadScene("VictorySingle");
+
         }
-        else rayColor = Color.red;
-        Debug.DrawRay(
-            boxCollider2D.bounds.center + new Vector3(boxCollider2D.bounds.extents.x, 0),
-            Vector2.down * (boxCollider2D.bounds.extents.y + extraHeightGroundCheck),
-            rayColor
-            );
-        Debug.DrawRay(
-            boxCollider2D.bounds.center - new Vector3(boxCollider2D.bounds.extents.x, 0),
-            Vector2.down * (boxCollider2D.bounds.extents.y + extraHeightGroundCheck),
-            rayColor
-            );
-        Debug.DrawRay(
-            boxCollider2D.bounds.center - new Vector3(boxCollider2D.bounds.extents.x, boxCollider2D.bounds.extents.y + extraHeightGroundCheck),
-            Vector2.right * 2 * boxCollider2D.bounds.extents.x,
-            rayColor
-            );
-        Debug.Log(raycastHit2D);
-        return raycastHit2D.collider != null;
+        else if (mode == 2)
+        {
+            PlayerPrefs.SetInt("winner", id);
+            SceneManager.LoadScene("VictoryMulti");
+        }
     }
 }

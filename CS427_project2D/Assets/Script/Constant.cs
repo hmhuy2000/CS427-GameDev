@@ -14,4 +14,8 @@ public class Constant : MonoBehaviour
 
     public static int[] skinPrice = new int[] { 0, 100 };
     public static string[] skinBtnName = new string[] { "WhiteSkinButton", "PinkSkinButton" };
+
+    public static string prefWinner = "winner";
+    public static string prefTimeLeft = "timeLeft";
+
 }

@@ -155,9 +155,6 @@ TextureImporter:
   - first:
       213: -4145492820697327530
     second: CatRose_50
-  - first:
-      213: -7874252585566860682
-    second: CatRose_51
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -202,7 +199,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 24
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -873,7 +870,7 @@ TextureImporter:
         serializedVersion: 2
         x: 7
         y: 331
-        width: 18
+        width: 39
         height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1325,27 +1322,6 @@ TextureImporter:
       bones: []
       spriteID: 658576b4e304876c0800000000000000
       internalID: -4145492820697327530
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CatRose_51
-      rect:
-        serializedVersion: 2
-        x: 27
-        y: 332
-        width: 18
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 67a06953ef809b290800000000000000
-      internalID: -7874252585566860682
       vertices: []
       indices: 
       edges: []

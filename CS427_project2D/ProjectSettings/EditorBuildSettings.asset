@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Nhan_map.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BXBao/Level2.unity
     guid: 65bf0c5e1b65b514997ce78aaa602321
+  - enabled: 1
+    path: Assets/Scenes/BXBao/VictoryMulti.unity
+    guid: 328dedb682e326546910d814cf9111c3
   m_configObjects: {}

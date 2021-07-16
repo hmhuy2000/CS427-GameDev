@@ -5,6 +5,27 @@ TextureImporter:
   - first:
       213: 705647318133504051
     second: DS DSi - Mario Kart DS - Coin_0
+  - first:
+      213: -7259664095906008181
+    second: DS DSi - Mario Kart DS - Coin_1
+  - first:
+      213: -450509637425051526
+    second: DS DSi - Mario Kart DS - Coin_2
+  - first:
+      213: 8392472339824717423
+    second: DS DSi - Mario Kart DS - Coin_3
+  - first:
+      213: -4014037094573743038
+    second: DS DSi - Mario Kart DS - Coin_4
+  - first:
+      213: 6709453551087811267
+    second: DS DSi - Mario Kart DS - Coin_5
+  - first:
+      213: 3649607356300203159
+    second: DS DSi - Mario Kart DS - Coin_6
+  - first:
+      213: -3075409444154687124
+    second: DS DSi - Mario Kart DS - Coin_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -90,6 +111,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -97,12 +130,12 @@ TextureImporter:
       name: DS DSi - Mario Kart DS - Coin_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 209
-        width: 62
-        height: 62
-      alignment: 9
-      pivot: {x: 0.5000001, y: 0.49823633}
+        x: 6
+        y: 210
+        width: 60
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -110,6 +143,153 @@ TextureImporter:
       bones: []
       spriteID: 338fd064f76fac900800000000000000
       internalID: 705647318133504051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario Kart DS - Coin_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 210
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b837dd6d7fd704b90800000000000000
+      internalID: -7259664095906008181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario Kart DS - Coin_2
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 141
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78c3652fd77fb9f0800000000000000
+      internalID: -450509637425051526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario Kart DS - Coin_3
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 142
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e2b8ab02d087470800000000000000
+      internalID: 8392472339824717423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario Kart DS - Coin_4
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 74
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244e0be97864b48c0800000000000000
+      internalID: -4014037094573743038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario Kart DS - Coin_5
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 6
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca729dd474cc1d50800000000000000
+      internalID: 6709453551087811267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario Kart DS - Coin_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 6
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7941de9dd8206a230800000000000000
+      internalID: 3649607356300203159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario Kart DS - Coin_7
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 74
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61474e9763f155d0800000000000000
+      internalID: -3075409444154687124
       vertices: []
       indices: 
       edges: []

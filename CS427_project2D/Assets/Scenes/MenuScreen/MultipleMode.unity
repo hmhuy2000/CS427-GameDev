@@ -949,6 +949,7 @@ GameObject:
   - component: {fileID: 1456896810}
   - component: {fileID: 1456896809}
   - component: {fileID: 1456896808}
+  - component: {fileID: 1456896811}
   m_Layer: 5
   m_Name: Lvl2Button
   m_TagString: Untagged
@@ -1070,6 +1071,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1456896806}
   m_CullTransparentMesh: 1
+--- !u!114 &1456896811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1456896806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10c1ac7c512079d4d879996ac7dc6a51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: 2
 --- !u!1 &1548560499
 GameObject:
   m_ObjectHideFlags: 0

@@ -4409,6 +4409,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1088107393}
   - component: {fileID: 1088107392}
+  - component: {fileID: 1088107394}
   - component: {fileID: 1088107391}
   - component: {fileID: 1088107390}
   m_Layer: 0
@@ -4431,6 +4432,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hookPrefab: {fileID: 2977119278392445891, guid: 9637317ef98f9b5449a5f64970fdc189, type: 3}
+  useSpring: 1
 --- !u!114 &1088107391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4444,6 +4446,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hookPrefab: {fileID: 3656005684582708545, guid: 08fdcef437f8a77498a2e9c8f252c225, type: 3}
+  useSpring: 1
 --- !u!114 &1088107392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4457,6 +4460,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hookPrefab: {fileID: 7199055314148116265, guid: 64e851cd2c6844a4e83cf8ce487200f6, type: 3}
+  useSpring: 1
 --- !u!4 &1088107393
 Transform:
   m_ObjectHideFlags: 0
@@ -4471,6 +4475,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1088107394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088107389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e34c35d3fe45ab4ea11520baf63c6f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hookPrefab: {fileID: 1798594534097410515, guid: 22e53c5e2bd437f43bcce3837210bd12, type: 3}
+  useSpring: 1
 --- !u!1 &1124039220
 GameObject:
   m_ObjectHideFlags: 0
@@ -8540,6 +8558,7 @@ MonoBehaviour:
   obj1: {fileID: 1488141349}
   obj2: {fileID: 1933261553}
   duration: 60
+  item_object: {fileID: 1088107389}
 --- !u!4 &2024531638
 Transform:
   m_ObjectHideFlags: 0
@@ -8629,12 +8648,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2046224440018478782, guid: aa4d591cf02c65e43b0741592b85224a, type: 3}
+  m_Sprite: {fileID: -6051900934413649582, guid: 87ea58ca0b86cea4bbc1fa0d96f8727f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.2, y: 0.35}
+  m_Size: {x: 0.34, y: 0.4}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -8692,8 +8711,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.2, y: 0.35}
-    newSize: {x: 0.2, y: 0.35}
+    oldSize: {x: 0.34, y: 0.4}
+    newSize: {x: 0.34, y: 0.4}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0

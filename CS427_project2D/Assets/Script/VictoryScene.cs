@@ -15,7 +15,7 @@ public class VictoryScene : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        timeRemain = PlayerPrefs.GetInt("timeLeft", 10);
+        timeRemain = PlayerPrefs.GetInt("timeLeft", 0);
         playerGold = PlayerPrefs.GetInt("gold", 0);
         totalGold = playerGold + timeRemain;
         PlayerPrefs.SetInt("gold", (int)totalGold);

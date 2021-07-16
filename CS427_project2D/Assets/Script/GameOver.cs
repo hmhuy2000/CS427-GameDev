@@ -18,12 +18,36 @@ public class GameOver : MonoBehaviour
 
     public void displayGameOver()
     {
-        Time.timeScale = 0;
-        gameObject.SetActive(true);
-        gameOverText.enabled = true;
-        resumeBtn.SetActive(false);
-        cat1.enabled = false;
-        cat2.enabled = false;
+        int mode = PlayerPrefs.GetInt(Constant.prefMode, 1);
+        switch (mode)
+        {
+            case 1:
+                Time.timeScale = 0;
+                gameObject.SetActive(true);
+                gameOverText.enabled = true;
+                resumeBtn.SetActive(false);
+                cat1.enabled = false;
+                cat2.enabled = false;
+                break;
+            case 2:
+                displayWinnerPlayer();
+                break;
+        }
+    }
+
+    void displayWinnerPlayer()
+    {
+        float y1 = cat1.transform.position.y,
+            y2 = cat2.transform.position.y;
+        Debug.Log("y1 " + y1);
+        Debug.Log("y2 " + y2);
+        int id = cat1.getID();
+        if (y1 < y2)
+            id = cat2.getID();
+        else if (y1 == y2)
+            id = 0;
+        PlayerPrefs.SetInt(Constant.prefWinner, id);
+        SceneManager.LoadScene("VictoryMulti");
     }
 
     public void RestartBtn()
@@ -57,18 +81,18 @@ public class GameOver : MonoBehaviour
         cat2.enabled = false;
     }
 
-    public void NextLevel() // call when finish a round -> already unlock next level
+    public void NextLevel() // call when finish a round -> already unlock next level, but in multiplayer not
     {
-        int nextLevel = PlayerPrefs.GetInt("level", 1) + 1;
-        int maxUnlockedLevel = PlayerPrefs.GetInt("maxUnlockedLevel", 2);
+        int nextLevel = PlayerPrefs.GetInt(Constant.prefLevel, 1) + 1;
+        int maxUnlockedLevel = PlayerPrefs.GetInt(Constant.prefMaxUnlockedLevel, 1);
         if (nextLevel <= maxUnlockedLevel)
         {
-            PlayerPrefs.SetInt("level", nextLevel);
+            PlayerPrefs.SetInt(Constant.prefLevel, nextLevel);
             SceneManager.LoadScene("Level" + nextLevel);
             return;
         }
 
-        int mode = PlayerPrefs.GetInt("mode", 1);
+        int mode = PlayerPrefs.GetInt(Constant.prefMode, 1);
         if (mode == 1)
         {
             SceneManager.LoadScene("SingleMode");

@@ -700,7 +700,7 @@ GameObject:
   - component: {fileID: 577815616}
   - component: {fileID: 577815615}
   m_Layer: 5
-  m_Name: Image
+  m_Name: sky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -720,10 +720,10 @@ RectTransform:
   m_Father: {fileID: 702866967}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00048065, y: -0.40689}
-  m_SizeDelta: {x: 801, y: 391.61}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &577815615
 MonoBehaviour:
@@ -874,7 +874,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -272, y: 154}
+  m_AnchoredPosition: {x: -350, y: 200}
   m_SizeDelta: {x: 33.0517, y: 19.9463}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &637413243
@@ -1153,12 +1153,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -1528,6 +1528,10 @@ PrefabInstance:
       propertyPath: topYObject
       value: 
       objectReference: {fileID: 781342964}
+    - target: {fileID: 2162326587561020237, guid: cbbc47e25b0943247b93c1cbd0aef723, type: 3}
+      propertyPath: nextYObject
+      value: 
+      objectReference: {fileID: 1765051069}
     - target: {fileID: 8142934618171943363, guid: cbbc47e25b0943247b93c1cbd0aef723, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2015,7 +2019,7 @@ GameObject:
   - component: {fileID: 1808803984}
   - component: {fileID: 1808803983}
   m_Layer: 5
-  m_Name: Image
+  m_Name: cloud
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2035,10 +2039,10 @@ RectTransform:
   m_Father: {fileID: 702866967}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6.2573e-10, y: -107}
-  m_SizeDelta: {x: 801, y: 192}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -150}
+  m_SizeDelta: {x: 0, y: -300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1808803983
 MonoBehaviour:
@@ -2360,6 +2364,10 @@ PrefabInstance:
       propertyPath: topYObject
       value: 
       objectReference: {fileID: 781342964}
+    - target: {fileID: 2162326587561020237, guid: cbbc47e25b0943247b93c1cbd0aef723, type: 3}
+      propertyPath: nextYObject
+      value: 
+      objectReference: {fileID: 1765051069}
     - target: {fileID: 8142934618171943363, guid: cbbc47e25b0943247b93c1cbd0aef723, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

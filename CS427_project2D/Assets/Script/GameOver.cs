@@ -10,6 +10,9 @@ public class GameOver : MonoBehaviour
     [SerializeField] GameObject resumeBtn = null;
     [SerializeField] CatMovement cat1 = null;
     [SerializeField] CatMovement cat2 = null;
+    [SerializeField] AudioSource audio;
+    [SerializeField] AudioClip aclip;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +21,8 @@ public class GameOver : MonoBehaviour
 
     public void displayGameOver()
     {
+        audio.clip = aclip;
+        audio.Play();
         int mode = PlayerPrefs.GetInt(Constant.prefMode, 1);
         switch (mode)
         {

@@ -10,10 +10,10 @@ public class AudioManagerTutorial : MonoBehaviour
     public AudioSource backgroundAudio;
     void Start()
     {
-        firstPlayInt = PlayerPrefs.GetInt(FirstPlay);
+        firstPlayInt = PlayerPrefs.GetInt(FirstPlay, 0);
         if(firstPlayInt==0)
         {
-            backgroundFloat = .125f;
+            backgroundFloat = .25f;
             backgroundSlider.value = backgroundFloat;
             PlayerPrefs.SetFloat(BackgroundPref, backgroundFloat);
             PlayerPrefs.SetInt(FirstPlay, -1);

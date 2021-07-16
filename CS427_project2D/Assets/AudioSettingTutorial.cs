@@ -12,7 +12,7 @@ public class AudioSettingTutorial : MonoBehaviour
     }
     private void ContinueSettings()
     {
-        backgroundFloat = PlayerPrefs.GetFloat(BackgroundPref);
+        backgroundFloat = PlayerPrefs.GetFloat(BackgroundPref, 0.25f);
         backgroundAudio.volume = backgroundFloat;
     }    
 

@@ -5,12 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/Nhan_map.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/BXBao/Level1.unity
-    guid: 0f52f566ed7541745be448731812de1c
   - enabled: 1
     path: Assets/Scenes/MenuScreen/MainMenu.unity
     guid: 92ca2fe307b888141b5c6576612a4b2e
@@ -18,24 +12,30 @@ EditorBuildSettings:
     path: Assets/Scenes/MenuScreen/Mode.unity
     guid: db931c92c68d09a42b836aed5bf437e5
   - enabled: 1
-    path: Assets/Scenes/MenuScreen/MultipleMode.unity
-    guid: a57da6c9e10bcef4188fcd8fa46c791c
-  - enabled: 1
     path: Assets/Scenes/MenuScreen/Shop.unity
     guid: fa83f069f2c0b354d96ce57105c521e1
-  - enabled: 1
-    path: Assets/Scenes/MenuScreen/SingleMode.unity
-    guid: ea80a72369d50d14299ffa04246a5614
   - enabled: 1
     path: Assets/Scenes/MenuScreen/Volume.unity
     guid: 76a405df66d0ea64ea83628e09ca1a06
   - enabled: 1
-    path: Assets/Scenes/BXBao/VictorySingle.unity
-    guid: 339c4af109303c14fad753de174d7c4d
+    path: Assets/Scenes/MenuScreen/SingleMode.unity
+    guid: ea80a72369d50d14299ffa04246a5614
+  - enabled: 1
+    path: Assets/Scenes/MenuScreen/MultipleMode.unity
+    guid: a57da6c9e10bcef4188fcd8fa46c791c
+  - enabled: 1
+    path: Assets/Scenes/BXBao/Level1.unity
+    guid: 0f52f566ed7541745be448731812de1c
   - enabled: 1
     path: Assets/Scenes/BXBao/Level2.unity
     guid: 65bf0c5e1b65b514997ce78aaa602321
   - enabled: 1
+    path: Assets/Scenes/BXBao/VictorySingle.unity
+    guid: 339c4af109303c14fad753de174d7c4d
+  - enabled: 1
     path: Assets/Scenes/BXBao/VictoryMulti.unity
     guid: 328dedb682e326546910d814cf9111c3
+  - enabled: 0
+    path: Assets/Scenes/Nhan_map.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}

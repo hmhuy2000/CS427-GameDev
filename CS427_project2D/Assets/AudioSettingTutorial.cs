@@ -4,7 +4,7 @@ public class AudioSettingTutorial : MonoBehaviour
 {
     private static readonly string BackgroundPref = "BackgroundPref";
     private float backgroundFloat;
-    public AudioSource backgroundAudio;
+    public AudioSource[] backgroundAudio;
 
     void Awake()
     {
@@ -13,7 +13,10 @@ public class AudioSettingTutorial : MonoBehaviour
     private void ContinueSettings()
     {
         backgroundFloat = PlayerPrefs.GetFloat(BackgroundPref);
-        backgroundAudio.volume = backgroundFloat;
+        for (int i = 0; i < backgroundAudio.Length; i++)
+        {
+            backgroundAudio[i].volume = backgroundFloat;
+        }
     }    
 
 }

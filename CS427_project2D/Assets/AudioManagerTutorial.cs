@@ -7,7 +7,7 @@ public class AudioManagerTutorial : MonoBehaviour
     private int firstPlayInt;
     public Slider backgroundSlider;
     private float backgroundFloat;
-    public AudioSource backgroundAudio;
+    public AudioSource[] backgroundAudio;
     void Start()
     {
         firstPlayInt = PlayerPrefs.GetInt(FirstPlay);
@@ -37,10 +37,10 @@ public class AudioManagerTutorial : MonoBehaviour
     }
     public void UpdateSound()
     {
-        backgroundAudio.volume = backgroundSlider.value;
-        /*for(int i=0;i<backgroundAudio.Length;i++)
+        /*backgroundAudio.volume = backgroundSlider.value;*/
+        for(int i=0;i<backgroundAudio.Length;i++)
         {
             backgroundAudio[i].volume = backgroundSlider.value;
-        }    */
+        }    
     }    
 }

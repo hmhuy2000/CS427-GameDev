@@ -1718,7 +1718,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6244d65f2455d1b4fa34605db024c898, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  backgroundAudio: {fileID: 1512252902}
+  backgroundAudio:
+  - {fileID: 1512252902}
 --- !u!4 &1501470672
 Transform:
   m_ObjectHideFlags: 0

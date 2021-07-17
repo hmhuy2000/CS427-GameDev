@@ -22,7 +22,7 @@ public class ItemMovement : MonoBehaviour
     void Update()
     {
         rigid.velocity = new Vector2(0, flySpeed);
-        if(transform.position.y > screenBounds.y * 2){
+        if(transform.position.y > 60f){
             Destroy(this.gameObject);
         }
     }

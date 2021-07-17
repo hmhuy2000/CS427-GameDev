@@ -17,5 +17,5 @@ public class Constant : MonoBehaviour
 
     public static string prefWinner = "winner";
     public static string prefTimeLeft = "timeLeft";
-
+    public static string prefFirstTimePlay = "firstTimePlay";
 }

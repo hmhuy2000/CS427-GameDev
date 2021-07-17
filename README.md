@@ -13,10 +13,11 @@ It is also an offline single-player and 2-player game, so everyone can play with
 The characters, menu, and music are inspired from the 90s games.
 
 # Story
+At the beginning of everything, earlier than any kinds of formation, we were Gods, the Gods of destruction. However, our ultimate power made us arrogant, which let us be cursed, and get stuck in a harmless cute creature shape. 
+Now, the time has come, another arrogant and naive species, rookie witches, came and showed some hilarious magic. But they could be useful for my power redemption, their magic could release us from the ancient curse, meow. Unfortunately, the place of those witches is such an impossible place to reach. For the power, for the honor, this challenge could not be the problem, let’s find them!
 
 # Marketing video
-
-# Demo video
+https://www.youtube.com/watch?v=pS237ZBeRo8
 
 # Special Thanks
 ## Art Resource Creator:

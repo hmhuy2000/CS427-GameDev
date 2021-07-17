@@ -43,5 +43,5 @@ https://www.spriters-resource.com/custom_edited/mappycustoms/sheet/150677/
 https://9e0.itch.io/witches-pack?download
 https://www.spriters-resource.com/ds_dsi/mariokartds/sheet/109971/
 https://www.pngitem.com/middle/TboThhb_pokemon-item-sprite-png-pokemon-icons-sprite-shiny/?fbclid=IwAR0STwZbUcZDn_2S9SjMgg0u_v8gMZH-cfd6rvZJj7dxqRym5t2GyO8K6zw
-com.unity.textmeshpro
+https://docs.unity3d.com/Manual/com.unity.textmeshpro.html
 https://www.fesliyanstudios.com/royalty-free-music/downloads-c/8-bit-music/6
